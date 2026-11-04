@@ -1,8 +1,9 @@
-# Projeto de Extensão — SIFIT
+# Documentação Sifit
 
-Este repositório é destinado ao armazenamento, organização e versionamento da documentação referente ao **Projeto de Extensão da SIFIT**.
+Projeto de Extensão — SIFIT · **Instituição:** UniALFA · **Curso:** Sistemas para Internet
 
-Aqui estão reunidos os materiais, registros, relatórios e demais documentos produzidos durante o planejamento, desenvolvimento e execução do projeto.
+[**Abrir a documentação do projeto →**](Sifit/README.md)
 
-- **Instituição:** UniALFA
-- **Curso:** Sistemas para Internet
+Levantamento inicial de telas, requisitos e testes para o projeto de extensão. Arquivos em Markdown; capturas em `Sifit/evidencias/imagens`. A documentação está em andamento e pode ser versionada antes de concluir as gravações.
+
+Os links dos vídeos no JAM e no Google Drive serão acrescentados ao [registro de evidências](Sifit/evidencias/registro-de-evidencias.md). Consulte o [fluxo de gravação e atualização no Git](Sifit/evidencias/fluxo-de-gravacao.md).
