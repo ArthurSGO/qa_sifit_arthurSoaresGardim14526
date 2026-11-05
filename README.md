@@ -1,9 +1,10 @@
 # Documentação Sifit
 
-Projeto de Extensão — SIFIT · **Instituição:** UniALFA · **Curso:** Sistemas para Internet
+Projeto de Extensão — SIFIT
 
-[**Abrir a documentação do projeto →**](Sifit/README.md)
+- **Instituição:** UniALFA
+- **Curso:** Sistemas para Internet
 
-Levantamento inicial de telas, requisitos e testes para o projeto de extensão. Arquivos em Markdown; capturas em `Sifit/evidencias/imagens`. A documentação está em andamento e pode ser versionada antes de concluir as gravações.
+Documentação de requisitos, testes manuais, defeitos e evidências do sistema de gestão de academias Sifit.
 
-Os links dos vídeos no JAM e no Google Drive serão acrescentados ao [registro de evidências](Sifit/evidencias/registro-de-evidencias.md). Consulte o [fluxo de gravação e atualização no Git](Sifit/evidencias/fluxo-de-gravacao.md).
+[Documentação do projeto](Sifit/README.md)

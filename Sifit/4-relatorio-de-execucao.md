@@ -23,7 +23,7 @@ Foram especificados **267 casos**. Destes, **15 foram executados** com objetivo 
 | Inconclusivos | 1 |
 | Não executados | 252 |
 | Bugs registrados | 5 |
-| Vídeos JAM anexados | 0 |
+| Vídeos anexados aos bugs | 0 |
 | Operações de persistência conciliadas com banco | 0 |
 
 ## Casos executados
@@ -48,10 +48,10 @@ Foram especificados **267 casos**. Destes, **15 foram executados** com objetivo 
 
 ## Evidências e limites
 
-Capturas estão no [índice de evidências](evidencias/README.md). Casos de logout, proteção de rota, cálculo de diária e navegação de abas têm registro textual de observação; precisam de gravação se exigida para a entrega. A captura estática do login não prova sozinha que o clique falhou. A imagem do IMC contém valores fictícios digitados e descartados.
+As 8 capturas disponíveis estão no [índice de evidências](evidencias/README.md). Logout, proteção de rota, cálculo de diária e navegação de abas possuem registro textual de observação. Os bugs registrados ainda não possuem evidências em vídeo. Os valores utilizados no cálculo de IMC são fictícios e foram descartados.
 
 O ambiente apresentou dados já cadastrados de testes e alterações de contadores durante o carregamento. Não se atribuiu toda variação a defeito. Perfil, cliente e cálculo foram reobservados; não foi inferida causa raiz a partir do aspecto da tela.
 
 ## Pendências para encerramento
 
-Acesso ao banco, confirmação de ambiente e regras, massa isolada, execução CRUD, PDFs, estados com dados ausentes, permissões com contas diferentes, integrações autorizadas de teste e vídeos JAM. O sistema não está homologado por este relatório e a documentação permanece versão inicial até a fase integrada.
+Mapeamento do banco, confirmação de ambiente e regras, massa de teste, execução CRUD, PDFs, estados com dados ausentes, permissões com contas diferentes, integrações de teste e evidências complementares dos defeitos. A homologação permanece pendente.

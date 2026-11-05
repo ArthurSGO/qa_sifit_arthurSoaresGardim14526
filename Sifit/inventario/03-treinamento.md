@@ -2,7 +2,7 @@
 
 [← Índice](../README.md) · [Requisitos](../1-analise-de-requisitos.md) · [Pendências](../7-pendencias.md)
 
-> Levantamento por interface em 21/10/2026. Botão observado não significa operação validada. Valores de negócio e dados pessoais foram omitidos do catálogo.
+**Data do levantamento:** 21/10/2026 · **Abrangência:** telas, campos e ações observados na interface.
 
 ## RF12 · Fichas de Treino
 
@@ -26,7 +26,7 @@ Lista vazia após carregamento, com indicadores de cadastradas, ativas, vencendo
 
 ### O que falta validar
 
-Criar ficha isolada para descobrir editor de exercícios, séries, repetições, impressão e ações de linha realmente disponibilizadas. Não presumir campos ou exclusão ainda não observados.
+Editor de exercícios, séries, repetições, impressão e ações de linha pendentes de levantamento após a criação de uma ficha de teste.
 
 [Cenários deste módulo](../cenarios/RF12.md)
 
@@ -222,7 +222,7 @@ Formulários ficam na própria tela. Um clique em + Modalidade com campos vazios
 
 ### O que falta validar
 
-Validar significado dos botões e mensagens de obrigatoriedade com massa isolada; edição, exclusão, limite de vagas e geração de aulas. Gravação não executada.
+Validar significado dos botões e mensagens de obrigatoriedade com massa isolada; edição, exclusão, limite de vagas e geração de aulas. Operações de persistência não executadas.
 
 [Cenários deste módulo](../cenarios/RF19.md)
 

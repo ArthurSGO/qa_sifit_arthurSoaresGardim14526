@@ -2,7 +2,7 @@
 
 [← Índice](../README.md) · [Requisitos](../1-analise-de-requisitos.md) · [Pendências](../7-pendencias.md)
 
-> Levantamento por interface em 21/10/2026. Botão observado não significa operação validada. Valores de negócio e dados pessoais foram omitidos do catálogo.
+**Data do levantamento:** 21/10/2026 · **Abrangência:** telas, campos e ações observados na interface.
 
 ## RF37 · Fichas de Anamnese
 
@@ -26,7 +26,7 @@ Lista vazia. O assistente Aplicar Anamnese abriu etapa Selecionar Aluno. As etap
 
 ### O que falta validar
 
-Selecionar modelo e iniciar em massa fictícia, responder perguntas condicionais, salvar pendente/concluída, reabrir e conferir histórico. Não presumir que apenas abrir o assistente cria ficha.
+Selecionar modelo e iniciar em massa fictícia, responder perguntas condicionais, salvar pendente/concluída, reabrir e conferir histórico. Criação efetiva da ficha ainda não verificada.
 
 [Cenários deste módulo](../cenarios/RF37.md)
 

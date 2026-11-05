@@ -8,91 +8,91 @@
 | --- | --- |
 | Projeto | Extensão — documentação e testes manuais do Sifit |
 | Ambiente | https://sifit.centrion.com.br/login |
-| Versão do sistema | Não informada; não inferida pelo aspecto da interface |
-| Data | 21/10/2026 |
-| Responsável acadêmico | A preencher pelo aluno |
+| Versão do sistema | Não informada |
+| Data de elaboração | 21/10/2026 |
+| Revisão documental | 04/11/2026 |
+| Responsável acadêmico | Não informado |
 | Plataforma observada | Windows; navegador integrado do Codex; versão não coletada |
-| Tipo de ambiente | Não confirmado como produção, homologação ou sandbox |
-| Estado | Fase 1: exploração da interface e planejamento; fase 2: banco e evidências integradas pendentes |
+| Tipo de ambiente | Informado como banco de testes; correspondência com a aplicação a confirmar |
+| Estado | Exploração inicial concluída; execução funcional parcial |
 
 ## Objetivo
 
-Verificar funcionalidades, mensagens, consistência e persistência do sistema com testes manuais rastreáveis. A primeira fase mapeia os 44 destinos do menu principal, autenticação e perfil. A segunda verificará o ciclo completo de operações com banco e JAM, após disponibilização do acesso.
+Verificar funcionalidades, mensagens, consistência e persistência do sistema por meio de testes manuais rastreáveis. O levantamento abrange 44 destinos do menu principal, autenticação e perfil, organizados em 46 requisitos e 267 casos de teste.
 
 ## Escopo
 
-Inclui os requisitos RF01–RF46, consultas, formulários, caminhos condicionais, autenticação, mensagens de erro, cadastros, vínculos, exclusões e integrações disponíveis em ambiente de teste. Cada módulo tem arquivo de cenários e registro de limitações.
+Inclui consultas, formulários, caminhos condicionais, autenticação, mensagens de erro, cadastros, vínculos, exclusões e integrações disponíveis em ambiente de teste. Cada módulo possui cenários e limitações documentadas.
 
-Ainda não inclui homologação do aplicativo do aluno, catraca física, biometria, disparos para alunos reais, transações reais Pagar.me, desempenho/carga, exploração de vulnerabilidades ou compatibilidade entre navegadores. As integrações serão testadas com destinos e ambiente dedicados.
+Não estão incluídos nesta etapa: homologação do aplicativo do aluno, catraca física, biometria, comunicações para alunos reais, transações financeiras reais, desempenho/carga, testes de segurança e compatibilidade entre navegadores.
 
-## Estratégia de execução
+## Estratégia
 
-1. Explorar menus e formulários sem salvar registros existentes; registrar telas, campos, ações e estados.
-2. Confirmar regras de negócio e identificar tabelas, chaves e relacionamentos no esquema real.
-3. Preparar massa isolada com identificador único e registrar o estado inicial no banco.
-4. Executar caminhos positivos, negativos, limites e cancelamento; conferir persistência por ID após recarregar.
-5. Gravar o fluxo no JAM e associar caso, consulta, ID e vídeo no registro de evidências.
-6. Registrar bugs com passos e resultado esperado/obtido; testar novamente após correção.
-7. Consolidar cobertura e pendências sem declarar aprovação de casos não executados.
+| Frente | Abrangência | Situação |
+| --- | --- | --- |
+| Exploração da interface | Menus, formulários, campos, ações e estados | Levantamento inicial concluído |
+| Validação funcional | Caminhos positivos, negativos, limites e cancelamento | 15 casos executados |
+| Persistência | Valores, identificadores, relacionamentos e alterações de estado | Pendente de mapeamento do banco |
+| Gestão de defeitos | Reprodução, resultado esperado/obtido, impacto e evidências | 5 bugs registrados |
+| Retestes | Verificação dos casos relacionados após correção | Não realizados |
 
 ## Técnicas
 
-Particionamento de equivalência para entradas válidas/inválidas; valores-limite para datas, valores, caracteres e mídias; transição de estados em matrícula, avaliação, contas e check-in; análise de dependências em exclusões; testes por permissão; exploração de campos condicionais e comparação independente de cálculos.
+Particionamento de equivalência; análise de valores-limite; transição de estados; análise de dependências; testes por permissão; exploração de campos condicionais e comparação de cálculos.
 
 ## Priorização
 
 | Prioridade | Fluxos |
 | --- | --- |
 | Alta | Login/sessão; cliente → plano → matrícula → contas; check-in/presença; avaliações/anamnese; permissões |
-| Média | Fichas/exercícios/modelos; relatórios; turmas/Box; fornecedores; despesas; automações em ambiente isolado |
-| Baixa | Personalização visual, editor de contrato e recursos comerciais auxiliares, sem dispensar sua cobertura |
+| Média | Fichas/exercícios/modelos; relatórios; turmas/Box; fornecedores; despesas; automações |
+| Baixa | Personalização visual, editor de contrato e recursos comerciais auxiliares |
 
 ## Estados de execução
 
-| Estado | Uso |
+| Estado | Definição |
 | --- | --- |
 | Não executado | Caso especificado, ainda não realizado |
-| Aprovado | Objetivo delimitado atendido com observação registrada |
-| Reprovado | Resultado observado diverge do esperado; vincular bug |
-| Inconclusivo | Resultado observado, mas falta regra/origem suficiente para julgamento |
-| Bloqueado | Pré-condição necessária indisponível no momento de executar |
-| Não aplicável | Fora de escopo ou indisponibilidade confirmada e justificada |
-
-O estado geral de uma tela é diferente do estado de um caso. A aprovação do cálculo visual não aprova a persistência nem todas as fórmulas do módulo.
+| Aprovado | Resultado observado atende ao objetivo do caso |
+| Reprovado | Resultado observado diverge do esperado |
+| Inconclusivo | Informações insuficientes para avaliar o resultado |
+| Bloqueado | Pré-condição necessária indisponível |
+| Não aplicável | Caso fora do escopo ou funcionalidade indisponível, com justificativa |
 
 ## Critérios de entrada e saída
 
-**Entrada para gravações:** ambiente e massa identificados; regras e dependências conhecidas; banco acessível; capacidade de recuperação definida; JAM pronto; destinos de teste disponíveis para comunicações.
+**Entrada:** ambiente disponível, permissões compatíveis e dados de teste adequados ao caso. As verificações de persistência dependem do esquema do banco; integrações dependem de infraestrutura de teste.
 
-**Saída:** casos do escopo executados ou exceções justificadas; IDs e evidências preenchidos; resultados conciliados com banco; falhas registradas; correções retestadas quando disponíveis; pendências aceitas pelo responsável. Esses critérios ainda não foram atendidos.
+**Saída:** casos do escopo executados ou com impedimentos documentados; resultados e evidências registrados; defeitos relacionados aos casos e retestes documentados quando houver correção. A etapa atual ainda não atende aos critérios de encerramento.
 
-## Gestão de defeitos
+## Evidências e defeitos
 
-O modelo do professor pede título, descrição, reprodução, evidência e gravidade. Esta adaptação acrescenta ID único, prioridade, requisito/caso vinculado, estado e limite da investigação. Severidade mede impacto; prioridade indica ordem sugerida de correção. Não atribuir causa raiz apenas pelo sintoma.
+As execuções possuem registro de resultado e capturas disponíveis no [índice de evidências](evidencias/README.md). Vídeos complementam os registros de bugs quando a sequência de ações ou o comportamento dinâmico é necessário para demonstrar a ocorrência.
 
-Defeitos observados ficam no [relatório de bugs](3-relatorio-de-bugs.md). Indisponibilidades declaradas pela interface e suspeitas ficam em [pendências](7-pendencias.md). A recuperação de senha é um defeito de fluxo observado; automações explicitamente “Em desenvolvimento” são funcionalidades indisponíveis.
+O [relatório de bugs](3-relatorio-de-bugs.md) contém identificador, descrição, passos de reprodução, resultado esperado e obtido, severidade, prioridade, ambiente, caso relacionado, evidências e situação do reteste. Investigações e funcionalidades indisponíveis constam nas [pendências](7-pendencias.md).
 
-## Riscos e tratamento
+## Riscos e dependências
 
-| Risco | Tratamento |
+| Risco ou dependência | Impacto nos testes |
 | --- | --- |
-| Ambiente compartilhado e dados mutáveis | Identificar a execução e consultar por ID; não usar contagens globais como única prova |
-| Gravações afetarem pessoas ou dinheiro | Usar massa e integrações de teste; não executar pagamentos/disparos reais |
-| Exclusão irreversível | Confirmar recuperação/autorização no momento de executar; não excluir registros existentes |
-| Chaves e dados pessoais no vídeo | Ocultar segredos e usar dados fictícios; revisar a gravação antes de compartilhar |
-| Interface com carregamento assíncrono | Aguardar estado estável; não registrar zero transitório como falha |
-| Banco não disponível | Planejar consultas e critérios sem inventar nomes de tabela ou resultado |
+| Ambiente compartilhado e dados mutáveis | Variação de registros e indicadores entre execuções |
+| Massa e integrações de teste | Limitação de cadastros, exclusões, comunicações e operações financeiras |
+| Carregamento assíncrono | Estados transitórios podem afetar a observação |
+| Esquema do banco não documentado | Validação de persistência e relacionamentos pendente |
+| Regras de negócio não confirmadas | Critérios de aceitação sujeitos à validação |
 
-## Cronograma por marcos
+## Marcos
 
 | Marco | Situação |
 | --- | --- |
-| Referência e exploração inicial | Realizado em 21/10/2026 |
+| Exploração inicial | Realizada em 21/10/2026 |
 | Requisitos, inventário e cenários | Versão inicial preparada |
-| Esquema do banco e validação de regras | Aguardando acesso e informações |
-| Execução CRUD e gravações JAM | Não iniciada |
-| Retestes e encerramento | Após correções/execução integrada |
+| Acesso ao banco pelo MySQL Workbench | Confirmado em 22/10/2026 |
+| Esquema do banco e regras de negócio | Pendentes |
+| Execução de operações persistentes | Não iniciada |
+| Evidências complementares dos bugs | Pendentes |
+| Retestes e encerramento | Pendentes |
 
 ## Entregáveis
 
-Análise de requisitos; inventário de telas; plano; cenários BDD; matriz; relatório de bugs; relatório parcial de execução; roteiro banco/JAM; índice de evidências e lista de pendências. Formato documental Markdown, com capturas PNG como anexos.
+Análise de requisitos; inventário de telas; plano de testes; cenários BDD; matriz de rastreabilidade; relatório de bugs; relatório de execução; índice de evidências e registro de pendências. Documentos em Markdown e capturas em PNG.

@@ -24,7 +24,7 @@
 | Ambiente | Windows; navegador integrado do Codex; versão não coletada; Sifit web |
 | Rota | /login |
 | Banco | Não inspecionado |
-| JAM | Pendente de gravação — nenhum link foi inventado |
+| Vídeo | Pendente |
 
 **Passos para reproduzir:** Sem sessão; abrir login e clicar Esqueci minha senha.
 
@@ -32,13 +32,13 @@
 
 **Obtido:** A tela permaneceu no login, sem formulário ou mensagem acionável. O link aponta para /login#.
 
-**Limite da análise:** Repetido na sessão. O destino #, sozinho, não é a prova: o resultado do clique também foi observado. A captura estática mostra o estado final; o JAM deve provar a ausência de resposta.
+**Limite da análise:** Comportamento reproduzido na sessão. A captura registra o estado final da tela; a sequência de interação ainda não possui evidência em vídeo.
 
 **Evidência:**
 
 ![BUG-001 — estado observado](evidencias/imagens/BUG-001-recuperacao-senha.png)
 
-**Reteste:** repetir o caso vinculado após correção; registrar data, versão, resultado e nova evidência, preservando esta execução.
+**Reteste:** Não realizado; correção não disponibilizada.
 
 ---
 
@@ -52,7 +52,7 @@
 | Ambiente | Windows; navegador integrado do Codex; versão não coletada; Sifit web |
 | Rota | /dash |
 | Banco | Não inspecionado |
-| JAM | Pendente de gravação — nenhum link foi inventado |
+| Vídeo | Pendente |
 
 **Passos para reproduzir:** Entrar e abrir o item Dashboard; aguardar gráficos e conferir o cabeçalho.
 
@@ -66,7 +66,7 @@
 
 ![BUG-002 — estado observado](evidencias/imagens/BUG-002-dashboard-titulo.png)
 
-**Reteste:** repetir o caso vinculado após correção; registrar data, versão, resultado e nova evidência, preservando esta execução.
+**Reteste:** Não realizado; correção não disponibilizada.
 
 ---
 
@@ -80,7 +80,7 @@
 | Ambiente | Windows; navegador integrado do Codex; versão não coletada; Sifit web |
 | Rota | /avaliacoes |
 | Banco | Não inspecionado |
-| JAM | Pendente de gravação — nenhum link foi inventado |
+| Vídeo | Pendente |
 
 **Passos para reproduzir:** Abrir Fazer Avaliação de registro de teste; selecionar IMC; conferir o rótulo. Para evidência do cálculo, informar 1,75 e 70 sem salvar.
 
@@ -94,7 +94,7 @@
 
 ![BUG-003 — estado observado](evidencias/imagens/BUG-003-imc-unidade.png)
 
-**Reteste:** repetir o caso vinculado após correção; registrar data, versão, resultado e nova evidência, preservando esta execução.
+**Reteste:** Não realizado; correção não disponibilizada.
 
 ---
 
@@ -108,7 +108,7 @@
 | Ambiente | Windows; navegador integrado do Codex; versão não coletada; Sifit web |
 | Rota | /visualizar-cliente/{id} |
 | Banco | Não inspecionado |
-| JAM | Pendente de gravação — nenhum link foi inventado |
+| Vídeo | Pendente |
 
 **Passos para reproduzir:** Abrir o registro de teste inspecionado, ID 414, se ainda existir; aguardar situação financeira; ler vencimento e próximo vencimento.
 
@@ -116,13 +116,13 @@
 
 **Obtido:** Vencimento e próximo vencimento mostraram 30/11/-0001.
 
-**Limite da análise:** Confirmado na apresentação. A origem pode envolver dado legado/inválido ou conversão; causa, data armazenada e relacionamento ainda não verificados. Se o registro mudar, preparar fixture equivalente após acesso ao banco.
+**Limite da análise:** Confirmado na apresentação. A origem pode envolver dado legado/inválido ou conversão; causa, data armazenada e relacionamento ainda não verificados. A reprodução depende da disponibilidade do registro ou de massa equivalente.
 
 **Evidência:**
 
 ![BUG-004 — estado observado](evidencias/imagens/BUG-004-cliente-data.png)
 
-**Reteste:** repetir o caso vinculado após correção; registrar data, versão, resultado e nova evidência, preservando esta execução.
+**Reteste:** Não realizado; correção não disponibilizada.
 
 ---
 
@@ -136,7 +136,7 @@
 | Ambiente | Windows; navegador integrado do Codex; versão não coletada; Sifit web |
 | Rota | /profile |
 | Banco | Não inspecionado |
-| JAM | Pendente de gravação — nenhum link foi inventado |
+| Vídeo | Pendente |
 
 **Passos para reproduzir:** Entrar; abrir o menu da conta; clicar Meu perfil; aguardar a página.
 
@@ -150,6 +150,6 @@
 
 ![BUG-005 — estado observado](evidencias/imagens/BUG-005-perfil-template.png)
 
-**Reteste:** repetir o caso vinculado após correção; registrar data, versão, resultado e nova evidência, preservando esta execução.
+**Reteste:** Não realizado; correção não disponibilizada.
 
 ---

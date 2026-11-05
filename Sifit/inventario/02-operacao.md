@@ -2,7 +2,7 @@
 
 [← Índice](../README.md) · [Requisitos](../1-analise-de-requisitos.md) · [Pendências](../7-pendencias.md)
 
-> Levantamento por interface em 21/10/2026. Botão observado não significa operação validada. Valores de negócio e dados pessoais foram omitidos do catálogo.
+**Data do levantamento:** 21/10/2026 · **Abrangência:** telas, campos e ações observados na interface.
 
 ## RF07 · Clientes
 

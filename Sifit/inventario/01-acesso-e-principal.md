@@ -2,7 +2,7 @@
 
 [← Índice](../README.md) · [Requisitos](../1-analise-de-requisitos.md) · [Pendências](../7-pendencias.md)
 
-> Levantamento por interface em 21/10/2026. Botão observado não significa operação validada. Valores de negócio e dados pessoais foram omitidos do catálogo.
+**Data do levantamento:** 21/10/2026 · **Abrangência:** telas, campos e ações observados na interface.
 
 ## RF01 · Autenticação e sessão
 
@@ -50,7 +50,7 @@ Ver detalhes; cartões de ausentes, sem matrícula, personais, matrículas e des
 
 ### O que foi observado
 
-Foram abertos os detalhamentos de ausentes, sem matrícula, personais, matrículas, desistências e financeiro. Ausentes oferece visualizar cliente e Remover da lista. Os detalhamentos possuem busca e fechamento. Financeiro mostra Exportar, faixas de atraso, paginação, cobrança e Registrar pagamento. Não se deve deduzir falha apenas pelo destino #, pois há links que abrem modais.
+Foram abertos os detalhamentos de ausentes, sem matrícula, personais, matrículas, desistências e financeiro. Ausentes oferece visualizar cliente e Remover da lista. Os detalhamentos possuem busca e fechamento. Financeiro mostra Exportar, faixas de atraso, paginação, cobrança e Registrar pagamento. Alguns links com destino # abrem modais.
 
 ### O que falta validar
 
@@ -110,7 +110,7 @@ Entrada manual abriu busca por nome, código ou CPF e abas Cliente existente, Vi
 
 ### O que falta validar
 
-Executar entrada e saída em cliente de teste, duplicidade, matrícula inativa, unidade, visitante, QR e biometria. Investigar Filtros com gravação. Não foram registrados check-ins por esta exploração.
+Executar entrada e saída em cliente de teste, duplicidade, matrícula inativa, unidade, visitante, QR e biometria. Comportamento de Filtros pendente de reprodução. Não foram registrados check-ins por esta exploração.
 
 [Cenários deste módulo](../cenarios/RF04.md)
 

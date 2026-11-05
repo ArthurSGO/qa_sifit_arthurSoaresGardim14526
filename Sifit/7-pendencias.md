@@ -6,16 +6,16 @@
 
 | ID | Observação | Por que ainda não é conclusão | Próxima ação |
 | --- | --- | --- | --- |
-| INV-001 | Inicialmente Sem Matrículas 6 versus modal 0; revisão mostrou 6/6 | Divergência não se repetiu; possível estado transitório, sem causa comprovada | Não classificar como bug confirmado; conciliar origem com banco; CT-RF02-02 |
+| INV-001 | Inicialmente Sem Matrículas 6 versus modal 0; revisão mostrou 6/6 | Divergência não se repetiu; possível estado transitório, sem causa comprovada | Conciliar origem com banco; CT-RF02-02 |
 | INV-002 | Desistências: total 2, lista vazia | Pode haver diferença entre agregado e consulta | Conciliar período, status, academia e dados |
-| INV-003 | Personais: ícones apontam /visualizar-cliente/{id} | Pode haver identidade compartilhada ou destino incorreto | Confirmar vínculo colaborador/cliente; não inferir pelo ID igual |
-| INV-004 | Check-in: Filtros não mostrou mudança ao clique | Falta gravação e confirmação do comportamento previsto | Reproduzir visualmente e registrar no JAM |
-| INV-005 | Perfil de cliente: Editar objetivos não respondeu visivelmente | Fluxo/regra não confirmados e sem gravação | Repetir em massa isolada e conferir implementação/banco |
+| INV-003 | Personais: ícones apontam /visualizar-cliente/{id} | Pode haver identidade compartilhada ou destino incorreto | Confirmar vínculo colaborador/cliente |
+| INV-004 | Check-in: Filtros não mostrou mudança ao clique | Comportamento previsto e reprodução pendentes | Reproduzir e confirmar o comportamento do filtro |
+| INV-005 | Perfil de cliente: Editar objetivos não respondeu visivelmente | Fluxo e regra não confirmados | Repetir em massa isolada e conferir implementação/banco |
 | INV-006 | Check-ins no perfil e tabela de presenças divergiram | Podem ser fontes distintas | Mapear eventos, presença, entrada/saída e datas |
 | INV-007 | Configurações: dias de ausência com valor negativo preexistente | Não foi testado se o formulário aceita salvar negativo | Validar limite em ambiente isolado e origem no banco |
 | INV-008 | Tipos de pagamento: ativos/uso em outros formulários a conciliar | Pode haver regra legada ou filtro diferente | Conferir status e elegibilidade em matrícula/contas |
 | INV-009 | Contas a Pagar: totais zerados com linha pendente | Critérios dos indicadores não conhecidos | Comparar período, status, valores e consultas |
-| INV-010 | Pagar.me: valores -- e gráfico preenchido | Integração e fonte não confirmadas | Validar configuração e sandbox; não realizar saque |
+| INV-010 | Pagar.me: valores -- e gráfico preenchido | Integração e fonte não confirmadas | Validar configuração e sandbox |
 | INV-011 | Produtos/Pontuação: botões sem nome na acessibilidade | Não comprova ausência visual de dados | Inspecionar visual e teclado; corrigir nomes acessíveis se confirmado |
 | INV-012 | Cadastro de pergunta não mostrou categoria | Vínculo pode ser definido em outro fluxo | Verificar edição, montador e esquema |
 | INV-013 | Login fornecido identifica Jair | Não comprova erro de identidade | Confirmar login → colaborador → academia no banco |
@@ -24,7 +24,7 @@
 
 ## Funcionalidades declaradas indisponíveis
 
-Na Central de Automações, Avaliações vencendo, Frequência em queda, Financeiro diário e Cobranças automáticas estão identificadas como **Em desenvolvimento**. Registrar como indisponibilidade explícita; não criar resultado aprovado nem defeito de implementação baseado apenas nessa ausência. Se o escopo contratual exigir essas funções, discutir a lacuna com o responsável.
+Na Central de Automações, Avaliações vencendo, Frequência em queda, Financeiro diário e Cobranças automáticas estão identificadas como **Em desenvolvimento**. Essas funcionalidades estão registradas como indisponíveis na versão observada.
 
 O WhatsApp estava desconectado e sem configuração. Conectar, Testar, Enviar e Desconectar estavam desabilitados. Isso é uma pré-condição ausente, não prova de defeito.
 
@@ -40,7 +40,7 @@ O WhatsApp estava desconectado e sem configuração. Conectar, Testar, Enviar e 
 - Fluxos financeiros de abertura/fechamento/reabertura, baixas e integrações.
 - Todos os efeitos persistentes de cadastrar, editar, cancelar e excluir.
 
-Esses caminhos dependem de massa, gravação, banco ou operações que não foram concluídas. A visita de todos os itens do menu não os transforma em testados.
+Esses fluxos permanecem não executados e dependem de dados de teste, validação no banco ou infraestrutura específica.
 
 ## Melhorias propostas
 
@@ -55,4 +55,4 @@ Esses caminhos dependem de massa, gravação, banco ou operações que não fora
 
 ## Informações acadêmicas pendentes
 
-Nome do aluno e integrantes; curso/turma; instituição; professor; título oficial do projeto; cronograma e critérios de avaliação. Não foram preenchidos com dados presumidos.
+Nome do aluno e integrantes; turma; professor; título oficial do projeto; cronograma e critérios de avaliação. Instituição: UniALFA. Curso: Sistemas para Internet.
