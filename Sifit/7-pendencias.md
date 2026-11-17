@@ -2,7 +2,7 @@
 
 [← Índice](README.md) · [Bugs confirmados](3-relatorio-de-bugs.md)
 
-Observações e possibilidades de aprofundamento identificadas na exploração. Os itens abaixo não constituem uma lista obrigatória de testes ou gravações para a entrega atual.
+Investigações identificadas na exploração. Sua avaliação está relacionada aos fluxos do [plano de execução e evidências](6-plano-de-execucao-e-evidencias.md), sem gravação separada por investigação.
 
 ## Investigações abertas
 
@@ -30,7 +30,7 @@ Na Central de Automações, Avaliações vencendo, Frequência em queda, Finance
 
 O WhatsApp estava desconectado e sem configuração. Conectar, Testar, Enviar e Desconectar estavam desabilitados. Isso é uma pré-condição ausente, não prova de defeito.
 
-## Funcionalidades fora do escopo executado
+## Funcionalidades ainda não executadas
 
 - Editor posterior à criação de ficha e modelo de treino, com lista inicial vazia.
 - Etapas de seleção de modelo/respostas/conclusão da anamnese.
@@ -42,7 +42,7 @@ O WhatsApp estava desconectado e sem configuração. Conectar, Testar, Enviar e 
 - Fluxos financeiros de abertura/fechamento/reabertura, baixas e integrações.
 - Todos os efeitos persistentes de cadastrar, editar, cancelar e excluir.
 
-Esses fluxos não integram a etapa executada. Uma eventual ampliação depende de seleção de escopo, dados de teste e infraestrutura específica.
+Esses fluxos permanecem não executados. A cobertura planejada e os bloqueios de dados ou infraestrutura estão identificados no plano de execução.
 
 ## Melhorias propostas
 

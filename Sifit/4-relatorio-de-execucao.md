@@ -8,7 +8,7 @@
 
 Foram visitados os **44 itens do menu principal**, além do login e do perfil. Foram inspecionados formulários, modais, campos condicionais, as quatro abas de avaliação e as sete abas de configurações. Isso dá cobertura de navegação dos destinos visíveis nesta conta; não comprova cobertura de todos os estados internos nem execução integral dos fluxos.
 
-O escopo registrado compreende **15 verificações executadas**: **9 aprovadas, 5 reprovadas e 1 inconclusiva**. As demais funcionalidades integram o inventário e as possibilidades de avaliação complementar, sem inclusão no escopo atual de execução. Não foram feitos cadastros, edições ou exclusões deliberadas de registros existentes; os formulários preenchidos para cálculo foram descartados. A sessão foi encerrada e restaurada para verificar autenticação.
+O escopo registrado compreende **15 verificações executadas**: **9 aprovadas, 5 reprovadas e 1 inconclusiva**. As demais funcionalidades estão relacionadas aos fluxos do [plano de execução e evidências](6-plano-de-execucao-e-evidencias.md), ainda não realizados. Não foram feitos cadastros, edições ou exclusões deliberadas de registros existentes; os formulários preenchidos para cálculo foram descartados. A sessão foi encerrada e restaurada para verificar autenticação.
 
 ## Resumo verificável
 
@@ -50,6 +50,10 @@ As 8 capturas disponíveis estão no [índice de evidências](evidencias/README.
 
 O ambiente apresentou dados já cadastrados de testes e alterações de contadores durante o carregamento. Não se atribuiu toda variação a defeito. Perfil, cliente e cálculo foram reobservados; não foi inferida causa raiz a partir do aspecto da tela.
 
-## Situação da entrega
+## Situação da etapa executada
 
 Evidência em vídeo do BUG-001 pendente. A investigação INV-001 permanece inconclusiva. Retestes dependem da disponibilização de correções. A etapa documentada é uma avaliação parcial da interface e não constitui homologação integral do sistema.
+
+## Execução planejada
+
+VF01–VF22: 22 fluxos funcionais, incluindo comprovação dos CRUDs no banco; VB01: vídeo do BUG-001; PF01–PF12: 12 capturas adicionais. Todos permanecem planejados e não alteram os resultados históricos deste relatório. Bloqueios e evidências previstos constam no [plano de execução](6-plano-de-execucao-e-evidencias.md).

@@ -1,6 +1,6 @@
 # Plano de testes · Sifit
 
-[← Índice](README.md) · [Requisitos](1-analise-de-requisitos.md) · [Cobertura](5-matriz-de-rastreabilidade.md)
+[← Índice](README.md) · [Requisitos](1-analise-de-requisitos.md) · [Cobertura](5-matriz-de-rastreabilidade.md) · [Execução e evidências](6-plano-de-execucao-e-evidencias.md)
 
 ## Identificação
 
@@ -11,59 +11,59 @@
 | Versão do sistema | Não informada |
 | Levantamento inicial | 21/10/2026 |
 | Revisão de escopo | 17/11/2026 |
-| Responsável acadêmico | Não informado |
 | Plataforma observada | Windows; navegador integrado do Codex; versão não coletada |
-| Estado | Avaliação parcial da interface; resultados registrados |
+| Estado | Exploração inicial concluída; execução funcional parcial e ampliação planejada |
 
 ## Objetivo
 
-Documentar as funcionalidades observadas e os resultados de uma avaliação manual da interface, com rastreabilidade entre verificações, defeitos e evidências.
+Avaliar as funcionalidades documentadas da Sifit, com resultados rastreáveis e comprovação das operações persistentes na interface e no banco de testes.
 
-## Escopo da entrega atual
+## Escopo
 
-| Componente | Abrangência |
+O inventário abrange 46 áreas funcionais. A execução planejada organiza os cadastros e operações relacionados em 22 fluxos, incluindo autenticação e consultas como verificações associadas e capturas específicas. A entrega não fica limitada às 15 verificações já realizadas.
+
+As operações de cadastro, consulta, alteração e exclusão ou cancelamento integram o fluxo da entidade, conforme ações disponíveis. A comprovação de CRUD inclui a operação no sistema e a consulta correspondente no banco, conforme orientação acadêmica informada para o trabalho.
+
+A análise do esquema, das chaves e das tabelas ainda está pendente. A conexão pelo MySQL Workbench foi confirmada em 22/10/2026. Sem conferência no banco, a persistência permanece não verificada, mesmo quando o comportamento da interface foi observado.
+
+## Execução e evidências
+
+| Componente | Situação |
 | --- | --- |
-| Inventário funcional | 44 destinos do menu, autenticação e controles globais, organizados em 46 áreas funcionais |
-| Execução | 15 verificações realizadas em autenticação, Página Inicial, Dashboard, clientes, matrículas, avaliações, configurações e perfil |
-| Resultados | 9 aprovados, 5 reprovados e 1 inconclusivo |
-| Defeitos | 5 bugs documentados com reprodução, impacto e capturas |
-| Evidências | 8 capturas existentes; vídeo complementar pendente para o BUG-001 |
+| Inventário de telas, campos e ações | Disponível para as 46 áreas |
+| Verificações históricas | 15 executadas: 9 aprovadas, 5 reprovadas e 1 inconclusiva |
+| Fluxos funcionais VF01–VF22 | 22 planejados, com condições e bloqueios registrados |
+| Vídeo de defeito VB01 | 1 planejado para recuperação de senha |
+| Capturas | 8 existentes e 12 adicionais planejadas |
 
-O inventário descreve a interface e não representa uma exigência de execução de todos os fluxos. As [verificações complementares](cenarios/complementares.md) são possibilidades de ampliação, fora desta etapa.
+A previsão é de 23 vídeos e 20 capturas no total, sujeita aos bloqueios e às ocorrências da execução. O detalhamento, a associação aos requisitos e a evidência de cada fluxo constam no [plano de execução e evidências](6-plano-de-execucao-e-evidencias.md).
 
-## Fora do escopo atual
+## Técnicas
 
-Execução exaustiva de cadastros e operações CRUD; auditoria do banco; conciliação integral de indicadores; homologação de integrações, dispositivos e aplicativo; testes de carga, segurança e compatibilidade entre navegadores.
+Exploração da interface; caminhos positivos e negativos; validações de campos relevantes; transições de estado; consulta e comparação de dados persistidos; integridade de vínculos; verificação de permissões e análise de resultados e relatórios.
 
-O acesso ao banco foi confirmado pelo MySQL Workbench em 22/10/2026. A análise do esquema e a validação direta de persistência não foram realizadas e não são pré-condições para os resultados de interface já registrados.
+## Critérios de resultado
 
-## Técnicas aplicadas
+| Estado | Definição |
+| --- | --- |
+| Não executado | Fluxo planejado, ainda não realizado |
+| Aprovado | Resultado esperado atendido, com comprovação no banco nas operações CRUD |
+| Reprovado | Divergência observada e documentada |
+| Inconclusivo | Evidência ou regra insuficiente para avaliar o resultado |
+| Bloqueado | Acesso, dados, infraestrutura ou funcionalidade necessários indisponíveis |
 
-Exploração da interface; verificações funcionais positivas e negativas; comparação entre comportamento esperado e observado; conferência de cálculo visual e consistência de apresentação.
+Os resultados históricos conservam o objetivo de interface delimitado na execução original; não são aprovação retrospectiva dos CRUDs ainda não realizados.
 
-## Evidências
+## Limitações
 
-| Registro | Evidência | Situação |
-| --- | --- | --- |
-| BUG-001 — Recuperação de senha | Vídeo do clique e da ausência de resposta | Pendente de reprodução e gravação |
-| BUG-002 — Título do Dashboard | Captura da tela | Disponível |
-| BUG-003 — Unidade do IMC | Captura do rótulo e cálculo | Disponível |
-| BUG-004 — Ano negativo no vencimento | Captura da situação financeira | Disponível |
-| BUG-005 — Conteúdo de demonstração no perfil | Captura do conteúdo exibido | Disponível |
-| Demais verificações executadas | Capturas e observações registradas no relatório | Disponíveis conforme índice de evidências |
+Pagar.me, envio para Todos os alunos, WhatsApp, biometria e catraca dependem de ambiente dedicado, contas ou infraestrutura não disponíveis na exploração. Essas operações permanecem bloqueadas. A automação VF22 depende de execução com canal Apenas painel, sem envio externo. Funcionalidades Em desenvolvimento são registradas como indisponíveis.
 
-Vídeos complementam defeitos cujo comportamento não fica demonstrado em uma imagem. Não há uma gravação prevista por caso, requisito ou área funcional. Retestes ficam associados à correção do defeito correspondente.
+Ações de edição e exclusão não visíveis no levantamento serão confirmadas no fluxo correspondente. Não há previsão de teste de carga ou auditoria de segurança nesta etapa.
 
-## Situação dos resultados
+## Gestão de defeitos
 
-| Estado | Quantidade | Definição |
-| --- | ---: | --- |
-| Aprovado | 9 | Objetivo da verificação atendido |
-| Reprovado | 5 | Divergência documentada em bug |
-| Inconclusivo | 1 | Divergência inicial não reproduzida; origem não confirmada |
-
-As verificações inconclusivas e as limitações permanecem identificadas no relatório. Não há execução integral ou homologação do sistema declarada nesta entrega.
+Os defeitos são registrados com reprodução, esperado/obtido, impacto, evidência e vínculo com a execução. Prints demonstram defeitos visuais; vídeos complementam comportamentos dinâmicos. Correções disponibilizadas serão objeto de reteste. As evidências originais permanecem associadas à execução que as produziu.
 
 ## Entregáveis
 
-Análise de requisitos; inventário de interface; plano de testes; cenários executados; matriz de rastreabilidade; relatório de bugs; relatório parcial de execução; índice de evidências e observações complementares. Documentos em Markdown e capturas em PNG.
+Análise de requisitos; inventário; plano de testes; plano de execução e evidências; cenários e registros de execução; matriz de rastreabilidade; relatório de bugs; relatórios gerados; capturas, vídeos e registro de bloqueios e investigações.

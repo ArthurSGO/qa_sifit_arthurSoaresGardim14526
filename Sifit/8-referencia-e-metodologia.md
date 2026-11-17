@@ -18,7 +18,7 @@
 
 Levantamento de caixa-preta pela interface web, com inventário de telas e controles, requisitos funcionais propostos e casos de teste em formato DADO/QUANDO/ENTÃO. A rastreabilidade relaciona requisitos, casos, execuções e defeitos.
 
-As execuções são documentadas por resultados e capturas. Vídeos complementam os registros de defeitos quando a sequência de ações ou o comportamento dinâmico é relevante. A referência acadêmica apresenta links individuais de vídeo no relatório de bugs e não estabelece gravação por caso de teste.
+A referência escrita apresenta links individuais de vídeo no relatório de bugs, sem estabelecer gravação por caso. A orientação acadêmica adicional informada para o trabalho exige comprovação do CRUD tanto no sistema quanto no banco. O planejamento da Sifit contempla gravações agrupadas por fluxo para essa comprovação, capturas de consultas e relatórios e vídeo complementar para defeito dinâmico.
 
 ## Limitações
 
