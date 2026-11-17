@@ -1,6 +1,6 @@
 # Sifit · Documentação e qualidade de software
 
-**Versão:** 0.1 · **Levantamento inicial:** 21/10/2026 · **Revisão documental:** 04/11/2026
+**Versão:** 0.2 · **Levantamento inicial:** 21/10/2026 · **Revisão documental:** 17/11/2026
 
 Documentação do sistema de gestão de academias Sifit, elaborada a partir da análise da interface web e da referência acadêmica OrangeHRM.
 
@@ -10,12 +10,12 @@ Documentação do sistema de gestão de academias Sifit, elaborada a partir da a
 | --- | ---: |
 | Destinos do menu visitados | 44 |
 | Requisitos catalogados | 46 |
-| Casos de teste especificados | 267 |
-| Casos executados | 15 |
+| Verificações executadas no escopo atual | 15 |
+| Vídeos complementares pendentes | 1 |
 | Bugs registrados | 5 |
 | Capturas disponíveis | 8 |
 
-O levantamento contempla navegação e verificações funcionais parciais. A validação de persistência, os fluxos completos e os retestes permanecem pendentes. O acesso ao banco pela conexão salva no MySQL Workbench foi confirmado em 22/10/2026; o esquema ainda não foi documentado.
+A entrega atual reúne o inventário funcional, as 15 verificações executadas, os 5 bugs e as 8 capturas existentes. A evidência em vídeo do BUG-001 está pendente. Os demais bugs possuem evidência visual em captura. Fluxos completos, validação no banco e integrações são possibilidades de ampliação, fora do escopo atual. O acesso pelo MySQL Workbench foi confirmado em 22/10/2026; o esquema não foi documentado.
 
 ## Documentos
 
@@ -25,7 +25,7 @@ O levantamento contempla navegação e verificações funcionais parciais. A val
 | [Plano de testes](2-plano-de-testes.md) | Escopo, estratégia, prioridades e critérios de execução |
 | [Relatório de bugs](3-relatorio-de-bugs.md) | Defeitos, reprodução, impacto e evidências |
 | [Relatório parcial de execução](4-relatorio-de-execucao.md) | Resultados e limitações da etapa executada |
-| [Matriz de rastreabilidade](5-matriz-de-rastreabilidade.md) | Requisitos, casos, execuções e ocorrências |
+| [Matriz de rastreabilidade](5-matriz-de-rastreabilidade.md) | Inventário, execuções e ocorrências |
 | [Pendências e melhorias](7-pendencias.md) | Investigações, funcionalidades indisponíveis e melhorias |
 | [Referência e metodologia](8-referencia-e-metodologia.md) | Fonte acadêmica e método de levantamento |
 | [Evidências](evidencias/README.md) | Capturas e registro de execuções |

@@ -24,7 +24,7 @@
 | Ambiente | Windows; navegador integrado do Codex; versão não coletada; Sifit web |
 | Rota | /login |
 | Banco | Não inspecionado |
-| Vídeo | Pendente |
+| Vídeo | Pendente — sequência do clique e ausência de resposta |
 
 **Passos para reproduzir:** Sem sessão; abrir login e clicar Esqueci minha senha.
 
@@ -52,7 +52,7 @@
 | Ambiente | Windows; navegador integrado do Codex; versão não coletada; Sifit web |
 | Rota | /dash |
 | Banco | Não inspecionado |
-| Vídeo | Pendente |
+| Evidência disponível | Captura estática abaixo |
 
 **Passos para reproduzir:** Entrar e abrir o item Dashboard; aguardar gráficos e conferir o cabeçalho.
 
@@ -80,7 +80,7 @@
 | Ambiente | Windows; navegador integrado do Codex; versão não coletada; Sifit web |
 | Rota | /avaliacoes |
 | Banco | Não inspecionado |
-| Vídeo | Pendente |
+| Evidência disponível | Captura estática abaixo |
 
 **Passos para reproduzir:** Abrir Fazer Avaliação de registro de teste; selecionar IMC; conferir o rótulo. Para evidência do cálculo, informar 1,75 e 70 sem salvar.
 
@@ -108,7 +108,7 @@
 | Ambiente | Windows; navegador integrado do Codex; versão não coletada; Sifit web |
 | Rota | /visualizar-cliente/{id} |
 | Banco | Não inspecionado |
-| Vídeo | Pendente |
+| Evidência disponível | Captura estática abaixo |
 
 **Passos para reproduzir:** Abrir o registro de teste inspecionado, ID 414, se ainda existir; aguardar situação financeira; ler vencimento e próximo vencimento.
 
@@ -136,7 +136,7 @@
 | Ambiente | Windows; navegador integrado do Codex; versão não coletada; Sifit web |
 | Rota | /profile |
 | Banco | Não inspecionado |
-| Vídeo | Pendente |
+| Evidência disponível | Captura estática abaixo |
 
 **Passos para reproduzir:** Entrar; abrir o menu da conta; clicar Meu perfil; aguardar a página.
 

@@ -68,7 +68,7 @@ Cada item liga uma capacidade observada a um critério verificável. As ações 
 
 **Validação específica pendente:** Executar entrada e saída em cliente de teste, duplicidade, matrícula inativa, unidade, visitante, QR e biometria. Comportamento de Filtros pendente de reprodução. Não foram registrados check-ins por esta exploração.
 
-[Cenários RF04](cenarios/RF04.md)
+[Inventário RF04](inventario/01-acesso-e-principal.md)
 
 ### RF05 · Presenças
 
@@ -80,7 +80,7 @@ Cada item liga uma capacidade observada a um critério verificável. As ações 
 
 **Validação específica pendente:** Usar intervalo com registros e comparar contagens, unidades, horários e fronteiras de datas com o banco.
 
-[Cenários RF05](cenarios/RF05.md)
+[Inventário RF05](inventario/01-acesso-e-principal.md)
 
 ### RF06 · SifitBox — aulas
 
@@ -92,7 +92,7 @@ Cada item liga uma capacidade observada a um critério verificável. As ações 
 
 **Validação específica pendente:** Geração baseada em turmas recorrentes, repetição sem duplicidade, vagas, reservas e ações de aula que só aparecem com dados.
 
-[Cenários RF06](cenarios/RF06.md)
+[Inventário RF06](inventario/01-acesso-e-principal.md)
 
 ### RF07 · Clientes
 
@@ -140,7 +140,7 @@ Cada item liga uma capacidade observada a um critério verificável. As ações 
 
 **Validação específica pendente:** Confirmar estados Pendente/Recebido, resíduos, cópias, descontos/multas/juros, baixa parcial, conciliação com caixa e exclusão vinculada. Operações reais de recebimento ficam fora da execução atual.
 
-[Cenários RF10](cenarios/RF10.md)
+[Inventário RF10](inventario/02-operacao.md)
 
 ### RF11 · Contas a Pagar
 
@@ -152,7 +152,7 @@ Cada item liga uma capacidade observada a um critério verificável. As ações 
 
 **Validação específica pendente:** Conferir fornecedor/colaborador, categoria, documento, baixa parcial/total, vencimento, despesas fixas e caixa. Investigar totais zerados diante de conta pendente, respeitando os filtros.
 
-[Cenários RF11](cenarios/RF11.md)
+[Inventário RF11](inventario/02-operacao.md)
 
 ### RF12 · Fichas de Treino
 
@@ -164,7 +164,7 @@ Cada item liga uma capacidade observada a um critério verificável. As ações 
 
 **Validação específica pendente:** Editor de exercícios, séries, repetições, impressão e ações de linha pendentes de levantamento após a criação de uma ficha de teste.
 
-[Cenários RF12](cenarios/RF12.md)
+[Inventário RF12](inventario/03-treinamento.md)
 
 ### RF13 · Exercícios
 
@@ -176,7 +176,7 @@ Cada item liga uma capacidade observada a um critério verificável. As ações 
 
 **Validação específica pendente:** Persistir mídia de teste, limites e extensões; alteração de nome/mídia; integridade com ficha e grupo; tratamento de exclusão vinculada.
 
-[Cenários RF13](cenarios/RF13.md)
+[Inventário RF13](inventario/03-treinamento.md)
 
 ### RF14 · Grupos Musculares
 
@@ -188,7 +188,7 @@ Cada item liga uma capacidade observada a um critério verificável. As ações 
 
 **Validação específica pendente:** Tipos permitidos, imagem, nomes repetidos e exclusão quando há exercícios vinculados.
 
-[Cenários RF14](cenarios/RF14.md)
+[Inventário RF14](inventario/03-treinamento.md)
 
 ### RF15 · Objetivos Treino
 
@@ -200,7 +200,7 @@ Cada item liga uma capacidade observada a um critério verificável. As ações 
 
 **Validação específica pendente:** Cadastrar objetivo de teste e descobrir edição/exclusão disponíveis; vincular à ficha. Não assumir CRUD completo por analogia.
 
-[Cenários RF15](cenarios/RF15.md)
+[Inventário RF15](inventario/03-treinamento.md)
 
 ### RF16 · Grupos
 
@@ -212,7 +212,7 @@ Cada item liga uma capacidade observada a um critério verificável. As ações 
 
 **Validação específica pendente:** Verificar impacto do grupo nos planos, home e caixa; exclusão com vínculos.
 
-[Cenários RF16](cenarios/RF16.md)
+[Inventário RF16](inventario/03-treinamento.md)
 
 ### RF17 · Turmas
 
@@ -224,7 +224,7 @@ Cada item liga uma capacidade observada a um critério verificável. As ações 
 
 **Validação específica pendente:** Horários iguais/invertidos, dias vazios, personal condicional, sobreposição e vínculos com plano.
 
-[Cenários RF17](cenarios/RF17.md)
+[Inventário RF17](inventario/03-treinamento.md)
 
 ### RF18 · Categorias Crossfit
 
@@ -236,7 +236,7 @@ Cada item liga uma capacidade observada a um critério verificável. As ações 
 
 **Validação específica pendente:** Atualização das datas, unicidade e exclusão com vínculos de exercícios.
 
-[Cenários RF18](cenarios/RF18.md)
+[Inventário RF18](inventario/03-treinamento.md)
 
 ### RF19 · SifitBox — turmas e modalidades
 
@@ -248,7 +248,7 @@ Cada item liga uma capacidade observada a um critério verificável. As ações 
 
 **Validação específica pendente:** Validar significado dos botões e mensagens de obrigatoriedade com massa isolada; edição, exclusão, limite de vagas e geração de aulas. Operações de persistência não executadas.
 
-[Cenários RF19](cenarios/RF19.md)
+[Inventário RF19](inventario/03-treinamento.md)
 
 ### RF20 · Caixas
 
@@ -260,7 +260,7 @@ Cada item liga uma capacidade observada a um critério verificável. As ações 
 
 **Validação específica pendente:** Detalhar abertura, fechamento, reabertura, conferência e ajuste após criar ambiente financeiro de teste; conciliar contas e totais. Ações adicionais constam nas permissões, mas não foram executadas.
 
-[Cenários RF20](cenarios/RF20.md)
+[Inventário RF20](inventario/04-financeiro-e-comercial.md)
 
 ### RF21 · Pagar.me
 
@@ -272,7 +272,7 @@ Cada item liga uma capacidade observada a um critério verificável. As ações 
 
 **Validação específica pendente:** Confirmar sandbox e token com responsável; testar apenas nesse ambiente. Saques, cobranças, transferência e mudanças na integração não foram acionados.
 
-[Cenários RF21](cenarios/RF21.md)
+[Inventário RF21](inventario/04-financeiro-e-comercial.md)
 
 ### RF22 · Despesas Fixas
 
@@ -284,7 +284,7 @@ Cada item liga uma capacidade observada a um critério verificável. As ações 
 
 **Validação específica pendente:** Geração das contas periódicas, datas, repetição sem duplicar e efeito de inativação.
 
-[Cenários RF22](cenarios/RF22.md)
+[Inventário RF22](inventario/04-financeiro-e-comercial.md)
 
 ### RF23 · Relatórios
 
@@ -296,7 +296,7 @@ Cada item liga uma capacidade observada a um critério verificável. As ações 
 
 **Validação específica pendente:** Gerar PDFs dos sete tipos com massa conhecida e comparar linhas, totais e datas com consultas ao banco.
 
-[Cenários RF23](cenarios/RF23.md)
+[Inventário RF23](inventario/04-financeiro-e-comercial.md)
 
 ### RF24 · Prospecção
 
@@ -308,7 +308,7 @@ Cada item liga uma capacidade observada a um critério verificável. As ações 
 
 **Validação específica pendente:** Estágios e transições permitidas, duplicidades, contato inválido, edição e exclusão.
 
-[Cenários RF24](cenarios/RF24.md)
+[Inventário RF24](inventario/04-financeiro-e-comercial.md)
 
 ### RF25 · Planos
 
@@ -320,7 +320,7 @@ Cada item liga uma capacidade observada a um critério verificável. As ações 
 
 **Validação específica pendente:** Persistência de cada tipo, datas e parcelas, benefícios, dependentes, personal e conciliação do ranking. Integração Pagar.me apenas em sandbox.
 
-[Cenários RF25](cenarios/RF25.md)
+[Inventário RF25](inventario/04-financeiro-e-comercial.md)
 
 ### RF26 · Modelos de Contrato
 
@@ -332,7 +332,7 @@ Cada item liga uma capacidade observada a um critério verificável. As ações 
 
 **Validação específica pendente:** Testar editor, substituição de variáveis e contrato gerado com dados fictícios. Ações de edição/exclusão em lista vazia não foram observadas. Nenhum contrato foi assinado.
 
-[Cenários RF26](cenarios/RF26.md)
+[Inventário RF26](inventario/04-financeiro-e-comercial.md)
 
 ### RF27 · Tipos de Pagamento
 
@@ -344,7 +344,7 @@ Cada item liga uma capacidade observada a um critério verificável. As ações 
 
 **Validação específica pendente:** Efeito de status, seleção de bandeira e gateway nos formulários financeiros; exclusão com vínculos.
 
-[Cenários RF27](cenarios/RF27.md)
+[Inventário RF27](inventario/04-financeiro-e-comercial.md)
 
 ### RF28 · Bandeiras
 
@@ -356,7 +356,7 @@ Cada item liga uma capacidade observada a um critério verificável. As ações 
 
 **Validação específica pendente:** Criar bandeira de teste, mapear edição/exclusão após criação e validar taxas e parcelamento com massa conhecida.
 
-[Cenários RF28](cenarios/RF28.md)
+[Inventário RF28](inventario/04-financeiro-e-comercial.md)
 
 ### RF29 · Colaboradores
 
@@ -368,7 +368,7 @@ Cada item liga uma capacidade observada a um critério verificável. As ações 
 
 **Validação específica pendente:** Vincular função e conferir acesso com contas de teste dedicadas; testar Sem login e restrições sem conceder acesso real. Validar persistência das associações e o preenchimento das abas com massa conhecida.
 
-[Cenários RF29](cenarios/RF29.md)
+[Inventário RF29](inventario/05-gestao.md)
 
 ### RF30 · Funções e permissões
 
@@ -380,7 +380,7 @@ Cada item liga uma capacidade observada a um critério verificável. As ações 
 
 **Validação específica pendente:** Testar autorização no servidor e na interface com perfis isolados, incluindo acesso direto às rotas. Exclusão de função não foi observada.
 
-[Cenários RF30](cenarios/RF30.md)
+[Inventário RF30](inventario/05-gestao.md)
 
 ### RF31 · Fornecedores
 
@@ -392,7 +392,7 @@ Cada item liga uma capacidade observada a um critério verificável. As ações 
 
 **Validação específica pendente:** Testar documentos por tipo de pessoa, estado/cidade, duplicidade e exclusão com contas vinculadas.
 
-[Cenários RF31](cenarios/RF31.md)
+[Inventário RF31](inventario/05-gestao.md)
 
 ### RF32 · Tipos de Documentos
 
@@ -404,7 +404,7 @@ Cada item liga uma capacidade observada a um critério verificável. As ações 
 
 **Validação específica pendente:** Verificar disponibilidade por aplicação nas contas e exclusão com referências.
 
-[Cenários RF32](cenarios/RF32.md)
+[Inventário RF32](inventario/05-gestao.md)
 
 ### RF33 · Atividades
 
@@ -416,7 +416,7 @@ Cada item liga uma capacidade observada a um critério verificável. As ações 
 
 **Validação específica pendente:** Validade de pontuação negativa/zero, vínculo com campanhas e efeitos de alteração/exclusão.
 
-[Cenários RF33](cenarios/RF33.md)
+[Inventário RF33](inventario/05-gestao.md)
 
 ### RF34 · Pontuação
 
@@ -428,7 +428,7 @@ Cada item liga uma capacidade observada a um critério verificável. As ações 
 
 **Validação específica pendente:** Campanhas, produtos de resgate, pontos necessários, datas, crédito/resgate e ações de linha devem ser verificadas com massa isolada. Auditar nomes acessíveis dos botões.
 
-[Cenários RF34](cenarios/RF34.md)
+[Inventário RF34](inventario/05-gestao.md)
 
 ### RF35 · Produtos
 
@@ -440,7 +440,7 @@ Cada item liga uma capacidade observada a um critério verificável. As ações 
 
 **Validação específica pendente:** Validar persistência de produto por pontuação, edição, exclusão, mídia e vínculos com campanhas. Não inferir controle de estoque: campo de estoque não foi observado.
 
-[Cenários RF35](cenarios/RF35.md)
+[Inventário RF35](inventario/05-gestao.md)
 
 ### RF36 · Enquetes
 
@@ -452,7 +452,7 @@ Cada item liga uma capacidade observada a um critério verificável. As ações 
 
 **Validação específica pendente:** Pergunta/respostas obrigatórias, múltiplas alternativas, votação no app, contagem e alterações após votos.
 
-[Cenários RF36](cenarios/RF36.md)
+[Inventário RF36](inventario/05-gestao.md)
 
 ### RF37 · Fichas de Anamnese
 
@@ -464,7 +464,7 @@ Cada item liga uma capacidade observada a um critério verificável. As ações 
 
 **Validação específica pendente:** Selecionar modelo e iniciar em massa fictícia, responder perguntas condicionais, salvar pendente/concluída, reabrir e conferir histórico. Criação efetiva da ficha ainda não verificada.
 
-[Cenários RF37](cenarios/RF37.md)
+[Inventário RF37](inventario/06-saude-inteligencia-configuracoes.md)
 
 ### RF38 · Modelos de Anamnese
 
@@ -476,7 +476,7 @@ Cada item liga uma capacidade observada a um critério verificável. As ações 
 
 **Validação específica pendente:** Persistir ordem e obrigatoriedade; preview versus aplicação real; edição/exclusão de modelo já aplicado.
 
-[Cenários RF38](cenarios/RF38.md)
+[Inventário RF38](inventario/06-saude-inteligencia-configuracoes.md)
 
 ### RF39 · Categorias de Anamnese
 
@@ -488,7 +488,7 @@ Cada item liga uma capacidade observada a um critério verificável. As ações 
 
 **Validação específica pendente:** Validar ícones/cor, vínculo com perguntas e exclusão referenciada.
 
-[Cenários RF39](cenarios/RF39.md)
+[Inventário RF39](inventario/06-saude-inteligencia-configuracoes.md)
 
 ### RF40 · Perguntas de Anamnese
 
@@ -500,7 +500,7 @@ Cada item liga uma capacidade observada a um critério verificável. As ações 
 
 **Validação específica pendente:** Verificar como pergunta se vincula à categoria, comportamento condicional e impacto em modelos e respostas anteriores.
 
-[Cenários RF40](cenarios/RF40.md)
+[Inventário RF40](inventario/06-saude-inteligencia-configuracoes.md)
 
 ### RF41 · Inteligência e Automação
 
@@ -512,7 +512,7 @@ Cada item liga uma capacidade observada a um critério verificável. As ações 
 
 **Validação específica pendente:** Executar em ambiente isolado, conferir logs e destinatários, origem dos critérios e dados enviados. Nenhuma automação foi executada, ativada ou desativada. Confirmar se a configuração de Aniversariantes deveria usar critérios e preview próprios de aniversário.
 
-[Cenários RF41](cenarios/RF41.md)
+[Inventário RF41](inventario/06-saude-inteligencia-configuracoes.md)
 
 ### RF42 · Resultados IA
 
@@ -524,7 +524,7 @@ Cada item liga uma capacidade observada a um critério verificável. As ações 
 
 **Validação específica pendente:** Conferir janela temporal, cálculo e consistência entre central, resultados e home; executar automação isolada para observar resultados adicionais.
 
-[Cenários RF42](cenarios/RF42.md)
+[Inventário RF42](inventario/06-saude-inteligencia-configuracoes.md)
 
 ### RF43 · Configurações
 
@@ -548,7 +548,7 @@ Cada item liga uma capacidade observada a um critério verificável. As ações 
 
 **Validação específica pendente:** Criar modelo de teste para acessar o editor posterior e conferir aplicação em ficha. Ações de edição/exclusão não foram observadas em lista vazia.
 
-[Cenários RF44](cenarios/RF44.md)
+[Inventário RF44](inventario/06-saude-inteligencia-configuracoes.md)
 
 ### RF45 · Aplicativo
 
@@ -560,7 +560,7 @@ Cada item liga uma capacidade observada a um critério verificável. As ações 
 
 **Validação específica pendente:** Limites 179/180/181, edição de texto, entrega no app e moderação devem ser testados com grupo de teste isolado. Ações internas de posts/denúncias dependem de massa.
 
-[Cenários RF45](cenarios/RF45.md)
+[Inventário RF45](inventario/06-saude-inteligencia-configuracoes.md)
 
 ### RF46 · Meu perfil e controles globais
 

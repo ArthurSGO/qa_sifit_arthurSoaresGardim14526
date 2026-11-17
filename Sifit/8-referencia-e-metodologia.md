@@ -12,7 +12,7 @@
 | Plano de testes | [Plano de testes](2-plano-de-testes.md) |
 | Relatório de bugs | [Relatório de bugs](3-relatorio-de-bugs.md) |
 | Relatório de testes | [Relatório parcial de execução](4-relatorio-de-execucao.md) |
-| Cenários de testes | [Matriz e cenários RF01–RF46](5-matriz-de-rastreabilidade.md) |
+| Cenários de testes | [Matriz e casos executados](5-matriz-de-rastreabilidade.md) |
 
 ## Metodologia
 

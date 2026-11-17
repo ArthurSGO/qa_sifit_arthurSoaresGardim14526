@@ -28,7 +28,7 @@ Lista vazia. O assistente Aplicar Anamnese abriu etapa Selecionar Aluno. As etap
 
 Selecionar modelo e iniciar em massa fictícia, responder perguntas condicionais, salvar pendente/concluída, reabrir e conferir histórico. Criação efetiva da ficha ainda não verificada.
 
-[Cenários deste módulo](../cenarios/RF37.md)
+[Cobertura](../5-matriz-de-rastreabilidade.md)
 
 ---
 
@@ -56,7 +56,7 @@ Adicionar pergunta alterou a contagem de 0 para 1 e exibiu opção Obrigatória,
 
 Persistir ordem e obrigatoriedade; preview versus aplicação real; edição/exclusão de modelo já aplicado.
 
-[Cenários deste módulo](../cenarios/RF38.md)
+[Cobertura](../5-matriz-de-rastreabilidade.md)
 
 ---
 
@@ -84,7 +84,7 @@ Cadastro inspecionado, com Criar Categoria desabilitado enquanto nome vazio. Há
 
 Validar ícones/cor, vínculo com perguntas e exclusão referenciada.
 
-[Cenários deste módulo](../cenarios/RF39.md)
+[Cobertura](../5-matriz-de-rastreabilidade.md)
 
 ---
 
@@ -112,7 +112,7 @@ Cadastro e tipos de resposta inspecionados. O formulário legado não mostrou se
 
 Verificar como pergunta se vincula à categoria, comportamento condicional e impacto em modelos e respostas anteriores.
 
-[Cenários deste módulo](../cenarios/RF40.md)
+[Cobertura](../5-matriz-de-rastreabilidade.md)
 
 ---
 
@@ -140,7 +140,7 @@ Configurar risco abriu frequência, canais, destinatários Dono/Financeiro/Recep
 
 Executar em ambiente isolado, conferir logs e destinatários, origem dos critérios e dados enviados. Nenhuma automação foi executada, ativada ou desativada. Confirmar se a configuração de Aniversariantes deveria usar critérios e preview próprios de aniversário.
 
-[Cenários deste módulo](../cenarios/RF41.md)
+[Cobertura](../5-matriz-de-rastreabilidade.md)
 
 ---
 
@@ -168,7 +168,7 @@ A tela carregou métricas e mensagens de ausência de execução/achados no per�
 
 Conferir janela temporal, cálculo e consistência entre central, resultados e home; executar automação isolada para observar resultados adicionais.
 
-[Cenários deste módulo](../cenarios/RF42.md)
+[Cobertura](../5-matriz-de-rastreabilidade.md)
 
 ---
 
@@ -224,7 +224,7 @@ Lista vazia; indicadores de modelos, criadores, listados e sem criador. Formulá
 
 Criar modelo de teste para acessar o editor posterior e conferir aplicação em ficha. Ações de edição/exclusão não foram observadas em lista vazia.
 
-[Cenários deste módulo](../cenarios/RF44.md)
+[Cobertura](../5-matriz-de-rastreabilidade.md)
 
 ---
 
@@ -252,6 +252,6 @@ Criar Notificação foi aberto, com Enviar aviso desabilitado sem texto. Destina
 
 Limites 179/180/181, edição de texto, entrega no app e moderação devem ser testados com grupo de teste isolado. Ações internas de posts/denúncias dependem de massa.
 
-[Cenários deste módulo](../cenarios/RF45.md)
+[Cobertura](../5-matriz-de-rastreabilidade.md)
 
 ---

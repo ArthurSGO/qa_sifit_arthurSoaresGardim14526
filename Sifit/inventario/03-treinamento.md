@@ -28,7 +28,7 @@ Lista vazia após carregamento, com indicadores de cadastradas, ativas, vencendo
 
 Editor de exercícios, séries, repetições, impressão e ações de linha pendentes de levantamento após a criação de uma ficha de teste.
 
-[Cenários deste módulo](../cenarios/RF12.md)
+[Cobertura](../5-matriz-de-rastreabilidade.md)
 
 ---
 
@@ -56,7 +56,7 @@ Biblioteca carregou exercícios e grupos vazios. O formulário é aberto dentro 
 
 Persistir mídia de teste, limites e extensões; alteração de nome/mídia; integridade com ficha e grupo; tratamento de exclusão vinculada.
 
-[Cenários deste módulo](../cenarios/RF13.md)
+[Cobertura](../5-matriz-de-rastreabilidade.md)
 
 ---
 
@@ -84,7 +84,7 @@ Indicadores de grupos cadastrados, superiores, inferiores e aeróbio. O formulá
 
 Tipos permitidos, imagem, nomes repetidos e exclusão quando há exercícios vinculados.
 
-[Cenários deste módulo](../cenarios/RF14.md)
+[Cobertura](../5-matriz-de-rastreabilidade.md)
 
 ---
 
@@ -112,7 +112,7 @@ Lista vazia, com indicadores de objetivos, exibidos e com descrição. Formulár
 
 Cadastrar objetivo de teste e descobrir edição/exclusão disponíveis; vincular à ficha. Não assumir CRUD completo por analogia.
 
-[Cenários deste módulo](../cenarios/RF15.md)
+[Cobertura](../5-matriz-de-rastreabilidade.md)
 
 ---
 
@@ -140,7 +140,7 @@ Mostra grupos, ativos, exibição na home e caixa externo. Novo formulário insp
 
 Verificar impacto do grupo nos planos, home e caixa; exclusão com vínculos.
 
-[Cenários deste módulo](../cenarios/RF16.md)
+[Cobertura](../5-matriz-de-rastreabilidade.md)
 
 ---
 
@@ -168,7 +168,7 @@ Lista apresenta plano, horário, dias e status. Indicadores de cadastradas, ativ
 
 Horários iguais/invertidos, dias vazios, personal condicional, sobreposição e vínculos com plano.
 
-[Cenários deste módulo](../cenarios/RF17.md)
+[Cobertura](../5-matriz-de-rastreabilidade.md)
 
 ---
 
@@ -196,7 +196,7 @@ Lista exibe datas de criação e atualização e indicadores de categorias, exib
 
 Atualização das datas, unicidade e exclusão com vínculos de exercícios.
 
-[Cenários deste módulo](../cenarios/RF18.md)
+[Cobertura](../5-matriz-de-rastreabilidade.md)
 
 ---
 
@@ -224,6 +224,6 @@ Formulários ficam na própria tela. Um clique em + Modalidade com campos vazios
 
 Validar significado dos botões e mensagens de obrigatoriedade com massa isolada; edição, exclusão, limite de vagas e geração de aulas. Operações de persistência não executadas.
 
-[Cenários deste módulo](../cenarios/RF19.md)
+[Cobertura](../5-matriz-de-rastreabilidade.md)
 
 ---

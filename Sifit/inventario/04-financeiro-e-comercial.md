@@ -28,7 +28,7 @@ Indicadores de abertos, fechados, locais e registros no período. O botão Visua
 
 Detalhar abertura, fechamento, reabertura, conferência e ajuste após criar ambiente financeiro de teste; conciliar contas e totais. Ações adicionais constam nas permissões, mas não foram executadas.
 
-[Cenários deste módulo](../cenarios/RF20.md)
+[Cobertura](../5-matriz-de-rastreabilidade.md)
 
 ---
 
@@ -56,7 +56,7 @@ Havia valores -- em diversas áreas e gráfico com valores e datas apresentados.
 
 Confirmar sandbox e token com responsável; testar apenas nesse ambiente. Saques, cobranças, transferência e mudanças na integração não foram acionados.
 
-[Cenários deste módulo](../cenarios/RF21.md)
+[Cobertura](../5-matriz-de-rastreabilidade.md)
 
 ---
 
@@ -84,7 +84,7 @@ Lista exibe valor, recorrência e status; indicadores de despesas, ativas, inati
 
 Geração das contas periódicas, datas, repetição sem duplicar e efeito de inativação.
 
-[Cenários deste módulo](../cenarios/RF22.md)
+[Cobertura](../5-matriz-de-rastreabilidade.md)
 
 ---
 
@@ -112,7 +112,7 @@ Gerar Relatório ficou habilitado após carregamento. A alternância para Contas
 
 Gerar PDFs dos sete tipos com massa conhecida e comparar linhas, totais e datas com consultas ao banco.
 
-[Cenários deste módulo](../cenarios/RF23.md)
+[Cobertura](../5-matriz-de-rastreabilidade.md)
 
 ---
 
@@ -140,7 +140,7 @@ Lista com código, nome, estágio e criação. Indicadores de leads, novos conta
 
 Estágios e transições permitidas, duplicidades, contato inválido, edição e exclusão.
 
-[Cenários deste módulo](../cenarios/RF24.md)
+[Cobertura](../5-matriz-de-rastreabilidade.md)
 
 ---
 
@@ -168,7 +168,7 @@ Foram alternados os três tipos de cobrança sem salvar. Diária mostra Valor Di
 
 Persistência de cada tipo, datas e parcelas, benefícios, dependentes, personal e conciliação do ranking. Integração Pagar.me apenas em sandbox.
 
-[Cenários deste módulo](../cenarios/RF25.md)
+[Cobertura](../5-matriz-de-rastreabilidade.md)
 
 ---
 
@@ -196,7 +196,7 @@ Editor e grupos de variáveis foram inspecionados. Variáveis incluem nome/CPF/R
 
 Testar editor, substituição de variáveis e contrato gerado com dados fictícios. Ações de edição/exclusão em lista vazia não foram observadas. Nenhum contrato foi assinado.
 
-[Cenários deste módulo](../cenarios/RF26.md)
+[Cobertura](../5-matriz-de-rastreabilidade.md)
 
 ---
 
@@ -224,7 +224,7 @@ Lista com tipo, via gateway e status. Cadastro inspecionado. A contagem de ativo
 
 Efeito de status, seleção de bandeira e gateway nos formulários financeiros; exclusão com vínculos.
 
-[Cenários deste módulo](../cenarios/RF27.md)
+[Cobertura](../5-matriz-de-rastreabilidade.md)
 
 ---
 
@@ -252,6 +252,6 @@ Nenhuma bandeira encontrada. Cadastro de bandeira e tabela de parcelas inspecion
 
 Criar bandeira de teste, mapear edição/exclusão após criação e validar taxas e parcelamento com massa conhecida.
 
-[Cenários deste módulo](../cenarios/RF28.md)
+[Cobertura](../5-matriz-de-rastreabilidade.md)
 
 ---

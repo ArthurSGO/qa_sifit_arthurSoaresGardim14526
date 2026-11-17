@@ -112,7 +112,7 @@ Foram inspecionados listagem, indicadores e formulário. O cadastro abriu com st
 
 Confirmar estados Pendente/Recebido, resíduos, cópias, descontos/multas/juros, baixa parcial, conciliação com caixa e exclusão vinculada. Operações reais de recebimento ficam fora da execução atual.
 
-[Cenários deste módulo](../cenarios/RF10.md)
+[Cobertura](../5-matriz-de-rastreabilidade.md)
 
 ---
 
@@ -140,6 +140,6 @@ O formulário abriu como Pendente, Variável e Contas e Despesas. A tela apresen
 
 Conferir fornecedor/colaborador, categoria, documento, baixa parcial/total, vencimento, despesas fixas e caixa. Investigar totais zerados diante de conta pendente, respeitando os filtros.
 
-[Cenários deste módulo](../cenarios/RF11.md)
+[Cobertura](../5-matriz-de-rastreabilidade.md)
 
 ---

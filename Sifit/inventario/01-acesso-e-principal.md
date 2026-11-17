@@ -112,7 +112,7 @@ Entrada manual abriu busca por nome, código ou CPF e abas Cliente existente, Vi
 
 Executar entrada e saída em cliente de teste, duplicidade, matrícula inativa, unidade, visitante, QR e biometria. Comportamento de Filtros pendente de reprodução. Não foram registrados check-ins por esta exploração.
 
-[Cenários deste módulo](../cenarios/RF04.md)
+[Cobertura](../5-matriz-de-rastreabilidade.md)
 
 ---
 
@@ -140,7 +140,7 @@ O período inicialmente consultado exibiu Nenhuma presença encontrada e orienta
 
 Usar intervalo com registros e comparar contagens, unidades, horários e fronteiras de datas com o banco.
 
-[Cenários deste módulo](../cenarios/RF05.md)
+[Cobertura](../5-matriz-de-rastreabilidade.md)
 
 ---
 
@@ -168,7 +168,7 @@ A consulta exibiu Nenhuma aula encontrada no período. Gerar aulas não foi acio
 
 Geração baseada em turmas recorrentes, repetição sem duplicidade, vagas, reservas e ações de aula que só aparecem com dados.
 
-[Cenários deste módulo](../cenarios/RF06.md)
+[Cobertura](../5-matriz-de-rastreabilidade.md)
 
 ---
 

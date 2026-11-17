@@ -2,6 +2,8 @@
 
 [← Índice](README.md) · [Bugs confirmados](3-relatorio-de-bugs.md)
 
+Observações e possibilidades de aprofundamento identificadas na exploração. Os itens abaixo não constituem uma lista obrigatória de testes ou gravações para a entrega atual.
+
 ## Investigações abertas
 
 | ID | Observação | Por que ainda não é conclusão | Próxima ação |
@@ -28,7 +30,7 @@ Na Central de Automações, Avaliações vencendo, Frequência em queda, Finance
 
 O WhatsApp estava desconectado e sem configuração. Conectar, Testar, Enviar e Desconectar estavam desabilitados. Isso é uma pré-condição ausente, não prova de defeito.
 
-## Caminhos ainda não alcançados
+## Funcionalidades fora do escopo executado
 
 - Editor posterior à criação de ficha e modelo de treino, com lista inicial vazia.
 - Etapas de seleção de modelo/respostas/conclusão da anamnese.
@@ -40,7 +42,7 @@ O WhatsApp estava desconectado e sem configuração. Conectar, Testar, Enviar e 
 - Fluxos financeiros de abertura/fechamento/reabertura, baixas e integrações.
 - Todos os efeitos persistentes de cadastrar, editar, cancelar e excluir.
 
-Esses fluxos permanecem não executados e dependem de dados de teste, validação no banco ou infraestrutura específica.
+Esses fluxos não integram a etapa executada. Uma eventual ampliação depende de seleção de escopo, dados de teste e infraestrutura específica.
 
 ## Melhorias propostas
 

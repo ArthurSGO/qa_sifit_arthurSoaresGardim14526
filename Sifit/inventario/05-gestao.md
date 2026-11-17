@@ -28,7 +28,7 @@ Cadastro inspecionado com Normal e Não avaliador selecionados. Permissões de f
 
 Vincular função e conferir acesso com contas de teste dedicadas; testar Sem login e restrições sem conceder acesso real. Validar persistência das associações e o preenchimento das abas com massa conhecida.
 
-[Cenários deste módulo](../cenarios/RF29.md)
+[Cobertura](../5-matriz-de-rastreabilidade.md)
 
 ---
 
@@ -56,7 +56,7 @@ Foram abertos cadastro e matriz de permissões. Ela inclui administrativo, clien
 
 Testar autorização no servidor e na interface com perfis isolados, incluindo acesso direto às rotas. Exclusão de função não foi observada.
 
-[Cenários deste módulo](../cenarios/RF30.md)
+[Cobertura](../5-matriz-de-rastreabilidade.md)
 
 ---
 
@@ -84,7 +84,7 @@ Cadastro aberto em Pessoa Jurídica. Indicadores de cadastrados e ativos. Altern
 
 Testar documentos por tipo de pessoa, estado/cidade, duplicidade e exclusão com contas vinculadas.
 
-[Cenários deste módulo](../cenarios/RF31.md)
+[Cobertura](../5-matriz-de-rastreabilidade.md)
 
 ---
 
@@ -112,7 +112,7 @@ Indicadores de total e aplicações por fornecedor/colaborador. Formulário insp
 
 Verificar disponibilidade por aplicação nas contas e exclusão com referências.
 
-[Cenários deste módulo](../cenarios/RF32.md)
+[Cobertura](../5-matriz-de-rastreabilidade.md)
 
 ---
 
@@ -140,7 +140,7 @@ Indicadores de total, com/sem pontuação e descrição. O cadastro foi inspecio
 
 Validade de pontuação negativa/zero, vínculo com campanhas e efeitos de alteração/exclusão.
 
-[Cenários deste módulo](../cenarios/RF33.md)
+[Cobertura](../5-matriz-de-rastreabilidade.md)
 
 ---
 
@@ -168,7 +168,7 @@ Cadastro inspecionado. Na árvore de acessibilidade as linhas apareceram como bo
 
 Campanhas, produtos de resgate, pontos necessários, datas, crédito/resgate e ações de linha devem ser verificadas com massa isolada. Auditar nomes acessíveis dos botões.
 
-[Cenários deste módulo](../cenarios/RF34.md)
+[Cobertura](../5-matriz-de-rastreabilidade.md)
 
 ---
 
@@ -196,7 +196,7 @@ Formulário de Venda inspecionado. O tipo Pontuação foi selecionado sem salvar
 
 Validar persistência de produto por pontuação, edição, exclusão, mídia e vínculos com campanhas. Não inferir controle de estoque: campo de estoque não foi observado.
 
-[Cenários deste módulo](../cenarios/RF35.md)
+[Cobertura](../5-matriz-de-rastreabilidade.md)
 
 ---
 
@@ -224,6 +224,6 @@ Lista com código, nome, pergunta e status. Alguns registros exibem Sem pergunta
 
 Pergunta/respostas obrigatórias, múltiplas alternativas, votação no app, contagem e alterações após votos.
 
-[Cenários deste módulo](../cenarios/RF36.md)
+[Cobertura](../5-matriz-de-rastreabilidade.md)
 
 ---

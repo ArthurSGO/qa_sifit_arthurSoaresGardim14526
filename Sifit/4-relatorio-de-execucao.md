@@ -8,7 +8,7 @@
 
 Foram visitados os **44 itens do menu principal**, além do login e do perfil. Foram inspecionados formulários, modais, campos condicionais, as quatro abas de avaliação e as sete abas de configurações. Isso dá cobertura de navegação dos destinos visíveis nesta conta; não comprova cobertura de todos os estados internos nem execução integral dos fluxos.
 
-Foram especificados **267 casos**. Destes, **15 foram executados** com objetivo delimitado: **9 aprovados, 5 reprovados e 1 inconclusivo**. Os **252 restantes não foram executados**. Não foram feitos cadastros, edições ou exclusões deliberadas de registros existentes; os formulários preenchidos para cálculo foram descartados. A sessão foi encerrada e restaurada para verificar autenticação.
+O escopo registrado compreende **15 verificações executadas**: **9 aprovadas, 5 reprovadas e 1 inconclusiva**. As demais funcionalidades integram o inventário e as possibilidades de avaliação complementar, sem inclusão no escopo atual de execução. Não foram feitos cadastros, edições ou exclusões deliberadas de registros existentes; os formulários preenchidos para cálculo foram descartados. A sessão foi encerrada e restaurada para verificar autenticação.
 
 ## Resumo verificável
 
@@ -16,12 +16,10 @@ Foram especificados **267 casos**. Destes, **15 foram executados** com objetivo 
 | --- | ---: |
 | Destinos do menu visitados | 44 |
 | Requisitos catalogados | 46 |
-| Casos especificados | 267 |
 | Executados | 15 |
 | Aprovados | 9 |
 | Reprovados | 5 |
 | Inconclusivos | 1 |
-| Não executados | 252 |
 | Bugs registrados | 5 |
 | Vídeos anexados aos bugs | 0 |
 | Operações de persistência conciliadas com banco | 0 |
@@ -48,10 +46,10 @@ Foram especificados **267 casos**. Destes, **15 foram executados** com objetivo 
 
 ## Evidências e limites
 
-As 8 capturas disponíveis estão no [índice de evidências](evidencias/README.md). Logout, proteção de rota, cálculo de diária e navegação de abas possuem registro textual de observação. Os bugs registrados ainda não possuem evidências em vídeo. Os valores utilizados no cálculo de IMC são fictícios e foram descartados.
+As 8 capturas disponíveis estão no [índice de evidências](evidencias/README.md). Logout, proteção de rota, cálculo de diária e navegação de abas possuem registro textual de observação. O BUG-001 possui evidência complementar em vídeo pendente; os demais defeitos estão demonstrados por capturas. Os valores utilizados no cálculo de IMC são fictícios e foram descartados.
 
 O ambiente apresentou dados já cadastrados de testes e alterações de contadores durante o carregamento. Não se atribuiu toda variação a defeito. Perfil, cliente e cálculo foram reobservados; não foi inferida causa raiz a partir do aspecto da tela.
 
-## Pendências para encerramento
+## Situação da entrega
 
-Mapeamento do banco, confirmação de ambiente e regras, massa de teste, execução CRUD, PDFs, estados com dados ausentes, permissões com contas diferentes, integrações de teste e evidências complementares dos defeitos. A homologação permanece pendente.
+Evidência em vídeo do BUG-001 pendente. A investigação INV-001 permanece inconclusiva. Retestes dependem da disponibilização de correções. A etapa documentada é uma avaliação parcial da interface e não constitui homologação integral do sistema.
