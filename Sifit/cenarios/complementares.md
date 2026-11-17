@@ -2,7 +2,7 @@
 
 [← Índice](../README.md) · [Cobertura](../5-matriz-de-rastreabilidade.md)
 
-Condições específicas derivadas do inventário da interface, para análise dentro dos fluxos do [plano de execução e evidências](../6-plano-de-execucao-e-evidencias.md). Não representam execuções realizadas nem gravações individuais. Variações de limite e recursos dependentes de infraestrutura permanecem condicionados ao ambiente.
+Condições específicas derivadas do inventário da interface, para análise dentro dos fluxos do [plano de execução e evidências](../6-plano-de-execucao-e-evidencias.md). Não representam execuções realizadas nem arquivos de evidência individuais. Variações de limite e recursos dependentes de infraestrutura permanecem condicionados ao ambiente.
 
 | Referência | Módulo | Verificação proposta |
 | --- | --- | --- |

@@ -21,7 +21,7 @@ O escopo registrado compreende **15 verificações executadas**: **9 aprovadas, 
 | Reprovados | 5 |
 | Inconclusivos | 1 |
 | Bugs registrados | 5 |
-| Vídeos anexados aos bugs | 0 |
+| Capturas disponíveis | 8 |
 | Operações de persistência conciliadas com banco | 0 |
 
 ## Casos executados
@@ -46,14 +46,14 @@ O escopo registrado compreende **15 verificações executadas**: **9 aprovadas, 
 
 ## Evidências e limites
 
-As 8 capturas disponíveis estão no [índice de evidências](evidencias/README.md). Logout, proteção de rota, cálculo de diária e navegação de abas possuem registro textual de observação. O BUG-001 possui evidência complementar em vídeo pendente; os demais defeitos estão demonstrados por capturas. Os valores utilizados no cálculo de IMC são fictícios e foram descartados.
+As 8 capturas disponíveis estão no [índice de evidências](evidencias/README.md). Logout, proteção de rota, cálculo de diária e navegação de abas possuem registro textual de observação. Os cinco defeitos possuem capturas e descrição de reprodução; não há vídeos previstos. Os valores utilizados no cálculo de IMC são fictícios e foram descartados.
 
 O ambiente apresentou dados já cadastrados de testes e alterações de contadores durante o carregamento. Não se atribuiu toda variação a defeito. Perfil, cliente e cálculo foram reobservados; não foi inferida causa raiz a partir do aspecto da tela.
 
 ## Situação da etapa executada
 
-Evidência em vídeo do BUG-001 pendente. A investigação INV-001 permanece inconclusiva. Retestes dependem da disponibilização de correções. A etapa documentada é uma avaliação parcial da interface e não constitui homologação integral do sistema.
+A investigação INV-001 permanece inconclusiva. Retestes dependem da disponibilização de correções. A etapa documentada é uma avaliação parcial da interface e não constitui homologação integral do sistema.
 
 ## Execução planejada
 
-VF01–VF22: 22 fluxos funcionais, incluindo comprovação dos CRUDs no banco; VB01: vídeo do BUG-001; PF01–PF12: 12 capturas adicionais. Todos permanecem planejados e não alteram os resultados históricos deste relatório. Bloqueios e evidências previstos constam no [plano de execução](6-plano-de-execucao-e-evidencias.md).
+FL01–FL22: 22 fluxos funcionais documentados por conjuntos de prints, incluindo comprovação dos CRUDs no banco; PF01–PF12: 12 capturas adicionais de consultas, autenticação, controles e relatórios. Todos permanecem planejados e não alteram os resultados históricos deste relatório. Bloqueios e evidências previstos constam no [plano de execução](6-plano-de-execucao-e-evidencias.md).

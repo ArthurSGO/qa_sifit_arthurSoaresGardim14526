@@ -110,7 +110,7 @@ Foram inspecionados listagem, indicadores e formulário. O cadastro abriu com st
 
 ### O que falta validar
 
-Confirmar estados Pendente/Recebido, resíduos, cópias, descontos/multas/juros, baixa parcial, conciliação com caixa e exclusão vinculada. Recebimentos serão avaliados com lançamentos de teste no fluxo VF11, sem transação financeira real.
+Confirmar estados Pendente/Recebido, resíduos, cópias, descontos/multas/juros, baixa parcial, conciliação com caixa e exclusão vinculada. Recebimentos serão avaliados com lançamentos de teste no fluxo FL11, sem transação financeira real.
 
 [Cobertura](../5-matriz-de-rastreabilidade.md)
 

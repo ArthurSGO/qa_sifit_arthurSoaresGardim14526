@@ -2,7 +2,7 @@
 
 [← Índice](README.md) · [Bugs confirmados](3-relatorio-de-bugs.md)
 
-Investigações identificadas na exploração. Sua avaliação está relacionada aos fluxos do [plano de execução e evidências](6-plano-de-execucao-e-evidencias.md), sem gravação separada por investigação.
+Investigações identificadas na exploração. Sua avaliação está relacionada aos fluxos do [plano de execução e evidências](6-plano-de-execucao-e-evidencias.md), com resultados e capturas associados ao fluxo correspondente.
 
 ## Investigações abertas
 

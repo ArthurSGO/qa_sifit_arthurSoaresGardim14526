@@ -24,7 +24,7 @@
 | Ambiente | Windows; navegador integrado do Codex; versão não coletada; Sifit web |
 | Rota | /login |
 | Banco | Não inspecionado |
-| Vídeo | Pendente — sequência do clique e ausência de resposta |
+| Evidência disponível | Captura estática abaixo e passos de reprodução |
 
 **Passos para reproduzir:** Sem sessão; abrir login e clicar Esqueci minha senha.
 
@@ -32,7 +32,7 @@
 
 **Obtido:** A tela permaneceu no login, sem formulário ou mensagem acionável. O link aponta para /login#.
 
-**Limite da análise:** Comportamento reproduzido na sessão. A captura registra o estado final da tela; a sequência de interação ainda não possui evidência em vídeo.
+**Limite da análise:** Comportamento reproduzido na sessão. A captura registra o estado final da tela; a ausência de resposta ao clique está descrita nos passos e no resultado obtido.
 
 **Evidência:**
 

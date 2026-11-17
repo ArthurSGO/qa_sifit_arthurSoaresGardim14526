@@ -1,6 +1,6 @@
 # Sifit · Documentação e qualidade de software
 
-**Versão:** 0.3 · **Levantamento inicial:** 21/10/2026 · **Revisão documental:** 17/11/2026
+**Versão:** 0.4 · **Levantamento inicial:** 21/10/2026 · **Revisão documental:** 17/11/2026
 
 Documentação do sistema de gestão de academias Sifit, elaborada a partir da análise da interface web e da referência acadêmica OrangeHRM.
 
@@ -12,12 +12,13 @@ Documentação do sistema de gestão de academias Sifit, elaborada a partir da a
 | Requisitos catalogados | 46 |
 | Verificações já executadas | 15 |
 | Fluxos funcionais planejados | 22 |
-| Vídeos previstos, incluindo BUG-001 | 23 |
-| Capturas adicionais previstas | 12 |
+| Vídeos previstos | 0 |
+| Capturas adicionais de consultas e relatórios | 12 |
+| Capturas de comprovação dos fluxos | Conforme operações executadas |
 | Bugs registrados | 5 |
 | Capturas disponíveis | 8 |
 
-O inventário está disponível e a execução é parcial. A etapa planejada abrange os fluxos funcionais com comprovação dos CRUDs no sistema e no banco. São previstos 22 vídeos de fluxos, 1 vídeo de defeito e 12 capturas adicionais, totalizando 20 imagens com as 8 existentes. Integrações sem infraestrutura de teste possuem bloqueios identificados. O banco está acessível pelo Workbench; o esquema ainda precisa de mapeamento.
+O inventário está disponível e a execução é parcial. Os 22 fluxos serão documentados por prints, com comprovação dos CRUDs no sistema e no banco. Além das 8 capturas existentes, estão previstas 12 imagens de consultas e relatórios e os conjuntos de imagens das operações persistentes, cujo total será consolidado na execução. Não há vídeos previstos. Integrações sem infraestrutura de teste possuem bloqueios identificados. O acesso ao banco foi confirmado pelo Workbench em 22/10/2026; o esquema ainda precisa de mapeamento.
 
 ## Documentos
 
@@ -28,7 +29,7 @@ O inventário está disponível e a execução é parcial. A etapa planejada abr
 | [Relatório de bugs](3-relatorio-de-bugs.md) | Defeitos, reprodução, impacto e evidências |
 | [Relatório parcial de execução](4-relatorio-de-execucao.md) | Resultados e limitações da etapa executada |
 | [Matriz de rastreabilidade](5-matriz-de-rastreabilidade.md) | Inventário, execuções, fluxos planejados e ocorrências |
-| [Plano de execução e evidências](6-plano-de-execucao-e-evidencias.md) | Fluxos, comprovação no banco, vídeos, capturas e bloqueios |
+| [Plano de execução e evidências](6-plano-de-execucao-e-evidencias.md) | Fluxos, comprovação no banco, capturas e bloqueios |
 | [Pendências e melhorias](7-pendencias.md) | Investigações, funcionalidades indisponíveis e melhorias |
 | [Referência e metodologia](8-referencia-e-metodologia.md) | Fonte acadêmica e método de levantamento |
 | [Evidências](evidencias/README.md) | Capturas e registro de execuções |

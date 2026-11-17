@@ -32,11 +32,11 @@ A análise do esquema, das chaves e das tabelas ainda está pendente. A conexão
 | --- | --- |
 | Inventário de telas, campos e ações | Disponível para as 46 áreas |
 | Verificações históricas | 15 executadas: 9 aprovadas, 5 reprovadas e 1 inconclusiva |
-| Fluxos funcionais VF01–VF22 | 22 planejados, com condições e bloqueios registrados |
-| Vídeo de defeito VB01 | 1 planejado para recuperação de senha |
-| Capturas | 8 existentes e 12 adicionais planejadas |
+| Fluxos funcionais FL01–FL22 | 22 planejados, com condições e bloqueios registrados |
+| Evidências de defeitos | Capturas e descrição dos passos e resultados |
+| Capturas | 8 existentes; 12 adicionais de consultas/relatórios e conjuntos de prints para os fluxos |
 
-A previsão é de 23 vídeos e 20 capturas no total, sujeita aos bloqueios e às ocorrências da execução. O detalhamento, a associação aos requisitos e a evidência de cada fluxo constam no [plano de execução e evidências](6-plano-de-execucao-e-evidencias.md).
+A evidência adotada é captura de tela, sem vídeos previstos. Os prints dos CRUDs incluem resultados no sistema e no banco; sua quantidade depende das operações executadas. As 12 capturas específicas de consultas e relatórios são adicionais a esses conjuntos. O detalhamento, a associação aos requisitos e a evidência de cada fluxo constam no [plano de execução e evidências](6-plano-de-execucao-e-evidencias.md).
 
 ## Técnicas
 
@@ -56,14 +56,14 @@ Os resultados históricos conservam o objetivo de interface delimitado na execu�
 
 ## Limitações
 
-Pagar.me, envio para Todos os alunos, WhatsApp, biometria e catraca dependem de ambiente dedicado, contas ou infraestrutura não disponíveis na exploração. Essas operações permanecem bloqueadas. A automação VF22 depende de execução com canal Apenas painel, sem envio externo. Funcionalidades Em desenvolvimento são registradas como indisponíveis.
+Pagar.me, envio para Todos os alunos, WhatsApp, biometria e catraca dependem de ambiente dedicado, contas ou infraestrutura não disponíveis na exploração. Essas operações permanecem bloqueadas. A automação FL22 depende de execução com canal Apenas painel, sem envio externo. Funcionalidades Em desenvolvimento são registradas como indisponíveis.
 
 Ações de edição e exclusão não visíveis no levantamento serão confirmadas no fluxo correspondente. Não há previsão de teste de carga ou auditoria de segurança nesta etapa.
 
 ## Gestão de defeitos
 
-Os defeitos são registrados com reprodução, esperado/obtido, impacto, evidência e vínculo com a execução. Prints demonstram defeitos visuais; vídeos complementam comportamentos dinâmicos. Correções disponibilizadas serão objeto de reteste. As evidências originais permanecem associadas à execução que as produziu.
+Os defeitos são registrados com reprodução, esperado/obtido, impacto, evidência e vínculo com a execução. Capturas e descrição dos passos demonstram o estado observado e o resultado da reprodução. Em comportamentos dinâmicos, o relato identifica a sequência de ações e os estados capturados. Correções disponibilizadas serão objeto de reteste. As evidências originais permanecem associadas à execução que as produziu.
 
 ## Entregáveis
 
-Análise de requisitos; inventário; plano de testes; plano de execução e evidências; cenários e registros de execução; matriz de rastreabilidade; relatório de bugs; relatórios gerados; capturas, vídeos e registro de bloqueios e investigações.
+Análise de requisitos; inventário; plano de testes; plano de execução e evidências; cenários e registros de execução; matriz de rastreabilidade; relatório de bugs; relatórios gerados; capturas e registro de bloqueios e investigações.
