@@ -2,15 +2,21 @@
 
 [← Índice](README.md) · [Inventário e cobertura](5-matriz-de-rastreabilidade.md) · [Execuções](4-relatorio-de-execucao.md)
 
-**Data:** 17/11/2026 · **Situação:** planejado, ainda não executado.
+**Revisão:** 18/11/2026 · **Situação:** conciliação das evidências recebidas em andamento.
+
+## Acervo recebido e execução complementar
+
+A equipe disponibilizou 73 casos com 70 links de vídeo e três de print, registrados na [consolidação](9-consolidacao-da-equipe.md). A revisão individual determinará quais operações já possuem evidência aproveitável e quais exigem complemento. Os 22 fluxos abaixo são referências de cobertura; não serão repetidos integralmente por padrão. As 12 capturas PF01–PF12 também estão sujeitas à conciliação com o acervo.
+
+Novas evidências serão em prints. A quantidade adicional permanece aberta até a revisão das mídias e a identificação do banco correspondente. Vídeos recebidos serão preservados. Resultados da interface e persistência no banco permanecem classificados separadamente.
 
 ## Dimensionamento
 
 | Evidência | Situação |
 | --- | --- |
-| Vídeos | Não previstos |
+| Novos vídeos | Não previstos; 70 links de vídeo já recebidos |
 | Capturas existentes | 8 disponíveis |
-| Consultas, autenticação, controles e relatórios | 12 capturas adicionais previstas, PF01–PF12 |
+| Consultas, autenticação, controles e relatórios | 12 capturas de referência, PF01–PF12; necessidade adicional sujeita à conciliação |
 | Operações dos 22 fluxos funcionais | Conjuntos de prints da interface e do banco; quantidade conforme as operações efetivamente disponíveis e executadas |
 
 Os 22 fluxos são agrupamentos de testes, não quantidades de arquivos. As 12 capturas PF01–PF12 não incluem os prints de comprovação dos CRUDs. O total de imagens será consolidado na execução; não há cota de capturas por requisito ou por tela.
@@ -32,7 +38,7 @@ Cancelamento e exclusão são avaliados conforme a ação e o efeito efetivament
 A evidência de cadastro pode também demonstrar a consulta. O estado anterior de uma alteração pode ser comprovado pela captura da etapa anterior. Resultados e passos registrados complementam as imagens, sem exigir uma captura por clique.
 ## Fluxos funcionais com evidências em prints
 
-Cada fluxo reúne operações relacionadas e um conjunto de capturas. Os prints associam o resultado na interface à consulta do mesmo registro no banco. Todos os fluxos abaixo estão não executados, salvo as verificações parciais já registradas no relatório histórico.
+Cada fluxo reúne operações relacionadas e um conjunto de capturas. Os prints associam o resultado na interface à consulta do mesmo registro no banco. A execução local histórica permanece delimitada no relatório original. Há casos da equipe relacionados a estes fluxos; os resultados e a abrangência por operação aguardam revisão no registro recebido.
 
 | ID | RF | Fluxo | Operações e evidência no banco |
 | --- | --- | --- | --- |

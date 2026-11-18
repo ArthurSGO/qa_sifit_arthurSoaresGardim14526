@@ -18,3 +18,7 @@ Capturas da interface obtidas em 21/10/2026, associadas aos casos executados. Os
 | CT-RF46-01 | Reprovado | [BUG-005-perfil-template.png](imagens/BUG-005-perfil-template.png) |
 
 As demais execuções possuem observação textual no [registro de execuções](registro-de-evidencias.md). As capturas e descrições de defeitos constam no [relatório de bugs](../3-relatorio-de-bugs.md). As novas evidências da interface e do banco estão previstas no [plano de execução](../6-plano-de-execucao-e-evidencias.md).
+
+## Material recebido da equipe
+
+[Registro dos 73 casos e links JAM](registro-equipe.md), com resultados informados, revisão local e situação da comprovação no banco. O acervo recebido permanece separado das oito capturas históricas locais.

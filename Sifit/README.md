@@ -1,6 +1,6 @@
 # Sifit · Documentação e qualidade de software
 
-**Versão:** 0.4 · **Levantamento inicial:** 21/10/2026 · **Revisão documental:** 17/11/2026
+**Versão:** 0.5 · **Levantamento inicial:** 21/10/2026 · **Revisão documental:** 18/11/2026
 
 Documentação do sistema de gestão de academias Sifit, elaborada a partir da análise da interface web e da referência acadêmica OrangeHRM.
 
@@ -11,14 +11,16 @@ Documentação do sistema de gestão de academias Sifit, elaborada a partir da a
 | Destinos do menu visitados | 44 |
 | Requisitos catalogados | 46 |
 | Verificações já executadas | 15 |
-| Fluxos funcionais planejados | 22 |
-| Vídeos previstos | 0 |
-| Capturas adicionais de consultas e relatórios | 12 |
-| Capturas de comprovação dos fluxos | Conforme operações executadas |
-| Bugs registrados | 5 |
-| Capturas disponíveis | 8 |
+| Fluxos de referência para cobertura | 22 |
+| Bugs históricos locais | 5 |
+| Capturas locais disponíveis | 8 |
+| Casos recebidos da equipe | 73 |
+| Links recebidos: vídeos / prints | 70 / 3 |
+| Mídias com inspeção parcial nesta revisão | 2 |
 
-O inventário está disponível e a execução é parcial. Os 22 fluxos serão documentados por prints, com comprovação dos CRUDs no sistema e no banco. Além das 8 capturas existentes, estão previstas 12 imagens de consultas e relatórios e os conjuntos de imagens das operações persistentes, cujo total será consolidado na execução. Não há vídeos previstos. Integrações sem infraestrutura de teste possuem bloqueios identificados. O acesso ao banco foi confirmado pelo Workbench em 22/10/2026; o esquema ainda precisa de mapeamento.
+O material da equipe está indexado, com resultados informados e revisão local separados. A fonte mantém 70 casos “A confirmar”, dois “FALHOU” e um “PARCIAL”. Não houve aprovação automática dos links nem comprovação no banco. As 15 verificações históricas locais permanecem preservadas e ainda não foram conciliadas com os casos recebidos.
+
+Os vídeos existentes serão reaproveitados. Novas evidências serão em prints, incluindo sistema e banco nas operações persistentes. Os 22 fluxos e as 12 capturas específicas representam referência de cobertura, sujeita à conciliação do acervo; não constituem uma fila de repetição integral. A quantidade adicional depende das lacunas efetivas. Os ambientes gravados e o banco correspondente ainda precisam de conciliação.
 
 ## Documentos
 
@@ -32,6 +34,8 @@ O inventário está disponível e a execução é parcial. Os 22 fluxos serão d
 | [Plano de execução e evidências](6-plano-de-execucao-e-evidencias.md) | Fluxos, comprovação no banco, capturas e bloqueios |
 | [Pendências e melhorias](7-pendencias.md) | Investigações, funcionalidades indisponíveis e melhorias |
 | [Referência e metodologia](8-referencia-e-metodologia.md) | Fonte acadêmica e método de levantamento |
+| [Consolidação da equipe](9-consolidacao-da-equipe.md) | Auditoria da fonte, ambientes, cobertura e pendências |
+| [Casos recebidos](evidencias/registro-equipe.md) | 73 links JAM, resultados informados e revisão local |
 | [Evidências](evidencias/README.md) | Capturas e registro de execuções |
 
 ## Inventário de telas, campos e ações

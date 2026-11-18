@@ -10,7 +10,7 @@
 | Ambiente | https://sifit.centrion.com.br/login |
 | Versão do sistema | Não informada |
 | Levantamento inicial | 21/10/2026 |
-| Revisão de escopo | 17/11/2026 |
+| Revisão de escopo | 18/11/2026 |
 | Plataforma observada | Windows; navegador integrado do Codex; versão não coletada |
 | Estado | Exploração inicial concluída; execução funcional parcial e ampliação planejada |
 
@@ -32,11 +32,14 @@ A análise do esquema, das chaves e das tabelas ainda está pendente. A conexão
 | --- | --- |
 | Inventário de telas, campos e ações | Disponível para as 46 áreas |
 | Verificações históricas | 15 executadas: 9 aprovadas, 5 reprovadas e 1 inconclusiva |
-| Fluxos funcionais FL01–FL22 | 22 planejados, com condições e bloqueios registrados |
+| Fluxos funcionais FL01–FL22 | 22 referências de cobertura, sujeitas à conciliação com os casos recebidos |
 | Evidências de defeitos | Capturas e descrição dos passos e resultados |
-| Capturas | 8 existentes; 12 adicionais de consultas/relatórios e conjuntos de prints para os fluxos |
+| Acervo da equipe | 73 casos, com 70 links de vídeo e três de print; revisão iniciada |
+| Capturas locais | 8 existentes; complementos após conciliação da cobertura |
 
-A evidência adotada é captura de tela, sem vídeos previstos. Os prints dos CRUDs incluem resultados no sistema e no banco; sua quantidade depende das operações executadas. As 12 capturas específicas de consultas e relatórios são adicionais a esses conjuntos. O detalhamento, a associação aos requisitos e a evidência de cada fluxo constam no [plano de execução e evidências](6-plano-de-execucao-e-evidencias.md).
+Novas evidências serão em capturas de tela; os vídeos recebidos da equipe serão reaproveitados após revisão. Os prints dos CRUDs incluem resultados no sistema e no banco; sua quantidade depende das operações executadas. As 12 capturas específicas de consultas e relatórios são referências sujeitas à conciliação com o acervo recebido. O detalhamento, a associação aos requisitos e a evidência de cada fluxo constam no [plano de execução e evidências](6-plano-de-execucao-e-evidencias.md).
+
+A [consolidação da equipe](9-consolidacao-da-equipe.md) distingue resultados informados, revisão local e persistência. As mídias inspecionadas usam ambiente diferente da exploração histórica; a equivalência de dados não foi confirmada.
 
 ## Técnicas
 

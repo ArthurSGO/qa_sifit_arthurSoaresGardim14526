@@ -42,7 +42,7 @@ O WhatsApp estava desconectado e sem configuração. Conectar, Testar, Enviar e 
 - Fluxos financeiros de abertura/fechamento/reabertura, baixas e integrações.
 - Todos os efeitos persistentes de cadastrar, editar, cancelar e excluir.
 
-Esses fluxos permanecem não executados. A cobertura planejada e os bloqueios de dados ou infraestrutura estão identificados no plano de execução.
+Esses itens descrevem a etapa histórica local. O material recebido posteriormente contém execuções relacionadas, ainda pendentes de conciliação por operação, conforme a [consolidação da equipe](9-consolidacao-da-equipe.md). A cobertura planejada e os bloqueios de dados ou infraestrutura estão identificados no plano de execução.
 
 ## Melhorias propostas
 
